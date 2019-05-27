@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\VRSwim.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{51815337-905D-4D6B-9ADE-4A1494BE173C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\VRSwim.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\VRSwimEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{B9731171-3C74-40F1-9D91-75AA983652E2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultScalability.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\VRSwim">
+			<UniqueIdentifier>{D0074520-1465-4D09-9B46-68121BB0AE53}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\VRSwim\ControllerHand.cpp">
+			<Filter>Source\VRSwim</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VRSwim\ControllerHand.h">
+			<Filter>Source\VRSwim</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\VRSwim\SwimPlayer.cpp">
+			<Filter>Source\VRSwim</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VRSwim\SwimPlayer.h">
+			<Filter>Source\VRSwim</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\VRSwim\VRSwim.Build.cs">
+			<Filter>Source\VRSwim</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\VRSwim\VRSwim.cpp">
+			<Filter>Source\VRSwim</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VRSwim\VRSwim.h">
+			<Filter>Source\VRSwim</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

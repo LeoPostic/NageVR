@@ -1,0 +1,117 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#include "SwimPlayer.h"
+#include "HeadMountedDisplay.h"
+#include "MotionControllerComponent.h"
+#include "Engine.h"
+#include "IXRTrackingSystem.h"
+
+
+
+
+// Sets default values
+ASwimPlayer::ASwimPlayer()
+{
+ 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+	camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera Component"));
+	VROrigin = CreateDefaultSubobject<USceneComponent>(TEXT("VR Origin"));
+	VROrigin->SetupAttachment(RootComponent);
+	camera->SetupAttachment(VROrigin);
+
+}
+
+// Called when the game starts or when spawned
+void ASwimPlayer::BeginPlay()
+{
+	Super::BeginPlay();
+
+	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Swimming);
+
+	SetupPlayerVRHeight();
+	SetupGamePads();
+}
+
+// Called every frame
+void ASwimPlayer::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	UpdateMovementFromController(leftController);
+	UpdateMovementFromController(rightController);
+}
+
+// Called to bind functionality to input
+void ASwimPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	InputComponent->BindAxis("AxisY", this, &ASwimPlayer::MoveForward);
+}
+
+void ASwimPlayer::MoveForward(float AxisValue)
+{
+	MovementInput.Y = FMath::Clamp<float>(AxisValue, -1.0f, 1.0f);
+}
+
+/**
+* Compare the position of the controller with its transform on the last frame
+* If the controller made a valid move we apply a force to our character
+*/
+void ASwimPlayer::UpdateMovementFromController(AControllerHand * controller)
+{
+	FRotator controllerRotator = controller->MotionController->GetComponentRotation();
+	FVector controllerMovement = controller->lastTransform.GetLocation() - controller->MotionController->GetComponentLocation();
+	FVector downVector = FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::Y);
+	float dot;
+
+	/*controllerMovement.Normalize();
+	downVector.Normalize();
+	*/
+	dot = FVector::DotProduct(controllerMovement, downVector);
+
+
+
+	if (FMath::RadiansToDegrees(FMath::Acos(dot)) >= 180 - controller->fSwimAngle) {
+		
+
+		AddMovementInput(downVector, dot * 100 * GetWorld()->GetDeltaSeconds());
+	}
+}
+
+
+void ASwimPlayer::SetupPlayerVRHeight()
+{
+	FName DeviceName(NAME_None);
+	
+	if (GEngine->XRSystem.IsValid())
+	{
+		DeviceName = GEngine->XRSystem->GetSystemName();
+		/*
+		* Detect the right device
+		*/
+		GEngine->XRSystem->SetTrackingOrigin(EHMDTrackingOrigin::Floor);
+	}
+}
+
+//Spawn and initialize both controller for VR use
+void ASwimPlayer::SetupGamePads()
+{
+	UWorld* world = GetWorld();
+
+	if (world) {
+		FActorSpawnParameters spawnParams;
+		spawnParams.Owner = this;
+
+		// Spawn right controller
+		rightController = world->SpawnActor<AControllerHand>(controllerBP, spawnParams);
+		rightController->SetIsRightHand(true);
+		rightController->AttachToComponent(GetCapsuleComponent(), FAttachmentTransformRules::SnapToTargetNotIncludingScale);
+		rightController->SetPlayer(this);		
+
+		// Spawn left controller	
+		leftController = world->SpawnActor<AControllerHand>(controllerBP, spawnParams);
+		leftController->SetIsRightHand(false);
+		leftController->AttachToComponent(GetCapsuleComponent(), FAttachmentTransformRules::SnapToTargetNotIncludingScale);
+		leftController->SetPlayer(this);
+	}
+}
+
