@@ -38,6 +38,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	void MoveForward(float AxisValue);
+	void GripRight();
+	void GripLeft();
+	void UnGripRight();
+	void UnGripLeft();
 
 	virtual void UpdateMovementFromController(AControllerHand* controller);
 
@@ -56,5 +60,7 @@ public:
 protected:
 	AControllerHand* rightController;
 	AControllerHand* leftController;
+	bool isGrippingRight;
+	bool isGrippingLeft;
 		
 };

@@ -45,11 +45,35 @@ void ASwimPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	InputComponent->BindAxis("AxisY", this, &ASwimPlayer::MoveForward);
+	InputComponent->BindAction("GrabRight", IE_Pressed, this, &ASwimPlayer::GripRight);
+	InputComponent->BindAction("GrabRight", IE_Released, this, &ASwimPlayer::UnGripRight);
+	InputComponent->BindAction("GrabLeft", IE_Pressed, this, &ASwimPlayer::GripLeft);
+	InputComponent->BindAction("GrabLeft", IE_Released, this, &ASwimPlayer::UnGripLeft);
 }
 
 void ASwimPlayer::MoveForward(float AxisValue)
 {
 	MovementInput.Y = FMath::Clamp<float>(AxisValue, -1.0f, 1.0f);
+}
+
+void ASwimPlayer::GripRight()
+{
+	isGrippingRight = true;
+}
+
+void ASwimPlayer::GripLeft()
+{
+	isGrippingLeft = true;
+}
+
+void ASwimPlayer::UnGripRight()
+{
+	isGrippingRight = false;
+}
+
+void ASwimPlayer::UnGripLeft()
+{
+	isGrippingLeft = false;
 }
 
 /**
@@ -58,6 +82,11 @@ void ASwimPlayer::MoveForward(float AxisValue)
 */
 void ASwimPlayer::UpdateMovementFromController(AControllerHand * controller)
 {
+	if ((controller->isRightHand && !isGrippingRight)
+		|| (!controller->isRightHand && !isGrippingLeft))
+		return;
+
+
 	FRotator controllerRotator = controller->MotionController->GetComponentRotation();
 	FVector controllerMovement = controller->lastTransform.GetLocation() - controller->MotionController->GetComponentLocation();
 	FVector downVector = FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::Y);
