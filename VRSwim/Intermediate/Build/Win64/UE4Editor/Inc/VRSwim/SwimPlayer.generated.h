@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VRSWIM_SwimPlayer_generated_h
 
-#define VRSwim_Source_VRSwim_SwimPlayer_h_17_RPC_WRAPPERS \
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetupGamePads) \
 	{ \
@@ -32,7 +32,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define VRSwim_Source_VRSwim_SwimPlayer_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetupGamePads) \
 	{ \
@@ -51,7 +51,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define VRSwim_Source_VRSwim_SwimPlayer_h_17_INCLASS_NO_PURE_DECLS \
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASwimPlayer(); \
 	friend VRSWIM_API class UClass* Z_Construct_UClass_ASwimPlayer(); \
@@ -61,7 +61,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define VRSwim_Source_VRSwim_SwimPlayer_h_17_INCLASS \
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesASwimPlayer(); \
 	friend VRSWIM_API class UClass* Z_Construct_UClass_ASwimPlayer(); \
@@ -71,7 +71,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define VRSwim_Source_VRSwim_SwimPlayer_h_17_STANDARD_CONSTRUCTORS \
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASwimPlayer(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASwimPlayer) \
@@ -84,7 +84,7 @@ private: \
 public:
 
 
-#define VRSwim_Source_VRSwim_SwimPlayer_h_17_ENHANCED_CONSTRUCTORS \
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASwimPlayer(ASwimPlayer&&); \
@@ -95,31 +95,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASwimPlayer); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASwimPlayer)
 
 
-#define VRSwim_Source_VRSwim_SwimPlayer_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__VROrigin() { return STRUCT_OFFSET(ASwimPlayer, VROrigin); } \
-	FORCEINLINE static uint32 __PPO__camera() { return STRUCT_OFFSET(ASwimPlayer, camera); }
-
-
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_PRIVATE_PROPERTY_OFFSET
 #define VRSwim_Source_VRSwim_SwimPlayer_h_14_PROLOG
-#define VRSwim_Source_VRSwim_SwimPlayer_h_17_GENERATED_BODY_LEGACY \
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VRSwim_Source_VRSwim_SwimPlayer_h_17_PRIVATE_PROPERTY_OFFSET \
-	VRSwim_Source_VRSwim_SwimPlayer_h_17_RPC_WRAPPERS \
-	VRSwim_Source_VRSwim_SwimPlayer_h_17_INCLASS \
-	VRSwim_Source_VRSwim_SwimPlayer_h_17_STANDARD_CONSTRUCTORS \
+	VRSwim_Source_VRSwim_SwimPlayer_h_18_PRIVATE_PROPERTY_OFFSET \
+	VRSwim_Source_VRSwim_SwimPlayer_h_18_RPC_WRAPPERS \
+	VRSwim_Source_VRSwim_SwimPlayer_h_18_INCLASS \
+	VRSwim_Source_VRSwim_SwimPlayer_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VRSwim_Source_VRSwim_SwimPlayer_h_17_GENERATED_BODY \
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VRSwim_Source_VRSwim_SwimPlayer_h_17_PRIVATE_PROPERTY_OFFSET \
-	VRSwim_Source_VRSwim_SwimPlayer_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	VRSwim_Source_VRSwim_SwimPlayer_h_17_INCLASS_NO_PURE_DECLS \
-	VRSwim_Source_VRSwim_SwimPlayer_h_17_ENHANCED_CONSTRUCTORS \
-private: \
+	VRSwim_Source_VRSwim_SwimPlayer_h_18_PRIVATE_PROPERTY_OFFSET \
+	VRSwim_Source_VRSwim_SwimPlayer_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	VRSwim_Source_VRSwim_SwimPlayer_h_18_INCLASS_NO_PURE_DECLS \
+	VRSwim_Source_VRSwim_SwimPlayer_h_18_ENHANCED_CONSTRUCTORS \
+public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 

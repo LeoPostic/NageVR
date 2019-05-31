@@ -27,7 +27,6 @@ void ASwimPlayer::BeginPlay()
 	Super::BeginPlay();
 
 	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Swimming);
-
 	SetupPlayerVRHeight();
 	SetupGamePads();
 }
@@ -36,25 +35,24 @@ void ASwimPlayer::BeginPlay()
 void ASwimPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	ResetForces();
 	UpdateMovementFromController(leftController);
 	UpdateMovementFromController(rightController);
+	ComputeControllerRotation(leftController);
+	ComputeControllerRotation(rightController);
+	ApplyMovement();
 }
 
 // Called to bind functionality to input
 void ASwimPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	InputComponent->BindAxis("AxisY", this, &ASwimPlayer::MoveForward);
 	InputComponent->BindAction("GrabRight", IE_Pressed, this, &ASwimPlayer::GripRight);
 	InputComponent->BindAction("GrabRight", IE_Released, this, &ASwimPlayer::UnGripRight);
 	InputComponent->BindAction("GrabLeft", IE_Pressed, this, &ASwimPlayer::GripLeft);
 	InputComponent->BindAction("GrabLeft", IE_Released, this, &ASwimPlayer::UnGripLeft);
 }
 
-void ASwimPlayer::MoveForward(float AxisValue)
-{
-	MovementInput.Y = FMath::Clamp<float>(AxisValue, -1.0f, 1.0f);
-}
 
 void ASwimPlayer::GripRight()
 {
@@ -86,24 +84,56 @@ void ASwimPlayer::UpdateMovementFromController(AControllerHand * controller)
 		|| (!controller->isRightHand && !isGrippingLeft))
 		return;
 
-
 	FRotator controllerRotator = controller->MotionController->GetComponentRotation();
 	FVector controllerMovement = controller->lastTransform.GetLocation() - controller->MotionController->GetComponentLocation();
 	FVector downVector = FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::Y);
 	float dot;
 
-	/*controllerMovement.Normalize();
-	downVector.Normalize();
-	*/
+	downVector.RotateAngleAxis(-30, FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::X));
+
+	if (controller->isRightHand) 
+		downVector *= (-1);	
+		
 	dot = FVector::DotProduct(controllerMovement, downVector);
 
-
-
 	if (FMath::RadiansToDegrees(FMath::Acos(dot)) >= 180 - controller->fSwimAngle) {
-		
-
-		AddMovementInput(downVector, dot * 100 * GetWorld()->GetDeltaSeconds());
+		if (controller->isRightHand)
+			RightForce = downVector.GetSafeNormal() * dot * swimSpeed;
+		else
+			LeftForce = downVector.GetSafeNormal() * dot * swimSpeed;
 	}
+}
+
+void ASwimPlayer::ComputeControllerRotation(AControllerHand* controller)
+{
+	if ((controller->isRightHand && !isGrippingRight)
+		|| (!controller->isRightHand && !isGrippingLeft))
+		return;
+
+	FVector controllerLocation = (controller->GetActorLocation() - GetActorLocation());
+	FVector controllerForce = controller->isRightHand ? RightForce.GetSafeNormal() : LeftForce.GetSafeNormal();
+	float rotationStrength = 0;
+
+	rotationStrength += (1 - FVector::DotProduct(controllerLocation.GetSafeNormal(), controllerForce)) * (controller->isRightHand?1:(-1));
+
+	if (GEngine) 
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Rotation value %f"), rotationStrength * fRadialSpeed));
+
+	AddControllerYawInput(rotationStrength * fRadialSpeed);
+	
+}
+
+void ASwimPlayer::ResetForces()
+{
+	RightForce = FVector::ZeroVector;
+	LeftForce = FVector::ZeroVector;
+	MovementInput = FVector::ZeroVector;
+}
+
+void ASwimPlayer::ApplyMovement()
+{
+	MovementInput = LeftForce + RightForce;
+	AddMovementInput(MovementInput, GetWorld()->GetDeltaSeconds());
 }
 
 

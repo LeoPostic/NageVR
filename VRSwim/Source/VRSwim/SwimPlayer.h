@@ -14,7 +14,14 @@ class AControllerHand;
 UCLASS()
 class VRSWIM_API ASwimPlayer : public ACharacter
 {
+public :
 	GENERATED_BODY()
+
+	// Sets default values for this character's properties
+	ASwimPlayer();
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class AControllerHand> controllerBP;
 
 	UPROPERTY(EditAnywhere, Category = "Scene")
 	class USceneComponent* VROrigin;
@@ -22,28 +29,23 @@ class VRSWIM_API ASwimPlayer : public ACharacter
 	UPROPERTY(EditAnywhere, Category = "Camera")
 	class UCameraComponent* camera;
 
-	FVector MovementInput;
+	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
+	float swimSpeed = 50;
 
-public:
-	// Sets default values for this character's properties
-	ASwimPlayer();
+	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
+	float fRadialSpeed;
 
-
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	void MoveForward(float AxisValue);
-	void GripRight();
-	void GripLeft();
-	void UnGripRight();
-	void UnGripLeft();
-
 	virtual void UpdateMovementFromController(AControllerHand* controller);
+	virtual void ComputeControllerRotation(AControllerHand* controller);
+	virtual void ResetForces();
+	virtual void ApplyMovement();
+	virtual void GripRight();
+	virtual void GripLeft();
+	virtual void UnGripRight();
+	virtual void UnGripLeft();	
 
 	UFUNCTION(BlueprintCallable, Category = "VR Setups")
 	virtual void SetupPlayerVRHeight();
@@ -51,13 +53,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "VR Setup")
 	virtual void SetupGamePads();
 
-	UPROPERTY(EditAnywhere)
-	TSubclassOf<class AControllerHand> controllerBP;
-
-	UPROPERTY(EditAnywhere)
-	float maxSpeed;
-
 protected:
+	FVector MovementInput;		// Vecteur de mouvement final
+	FVector RightForce;
+	FVector LeftForce;
 	AControllerHand* rightController;
 	AControllerHand* leftController;
 	bool isGrippingRight;

@@ -19,10 +19,10 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 	UPackage* Z_Construct_UPackage__Script_VRSwim();
 	VRSWIM_API UFunction* Z_Construct_UFunction_ASwimPlayer_SetupGamePads();
 	VRSWIM_API UFunction* Z_Construct_UFunction_ASwimPlayer_SetupPlayerVRHeight();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	VRSWIM_API UClass* Z_Construct_UClass_AControllerHand_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	VRSWIM_API UClass* Z_Construct_UClass_AControllerHand_NoRegister();
 // End Cross Module References
 	void ASwimPlayer::StaticRegisterNativesASwimPlayer()
 	{
@@ -90,19 +90,19 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 			};
 #endif
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxSpeed_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fRadialSpeed_MetaData[] = {
 				{ "Category", "SwimPlayer" },
 				{ "ModuleRelativePath", "SwimPlayer.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "maxSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, maxSpeed), METADATA_PARAMS(NewProp_maxSpeed_MetaData, ARRAY_COUNT(NewProp_maxSpeed_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_fRadialSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "fRadialSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, fRadialSpeed), METADATA_PARAMS(NewProp_fRadialSpeed_MetaData, ARRAY_COUNT(NewProp_fRadialSpeed_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_controllerBP_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_swimSpeed_MetaData[] = {
 				{ "Category", "SwimPlayer" },
 				{ "ModuleRelativePath", "SwimPlayer.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FClassPropertyParams NewProp_controllerBP = { UE4CodeGen_Private::EPropertyClass::Class, "controllerBP", RF_Public|RF_Transient|RF_MarkAsNative, 0x0014000000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, controllerBP), Z_Construct_UClass_AControllerHand_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_controllerBP_MetaData, ARRAY_COUNT(NewProp_controllerBP_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_swimSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "swimSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, swimSpeed), METADATA_PARAMS(NewProp_swimSpeed_MetaData, ARRAY_COUNT(NewProp_swimSpeed_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_camera_MetaData[] = {
 				{ "Category", "Camera" },
@@ -110,7 +110,7 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 				{ "ModuleRelativePath", "SwimPlayer.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_camera = { UE4CodeGen_Private::EPropertyClass::Object, "camera", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(NewProp_camera_MetaData, ARRAY_COUNT(NewProp_camera_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_camera = { UE4CodeGen_Private::EPropertyClass::Object, "camera", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080009, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(NewProp_camera_MetaData, ARRAY_COUNT(NewProp_camera_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VROrigin_MetaData[] = {
 				{ "Category", "Scene" },
@@ -118,12 +118,20 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 				{ "ModuleRelativePath", "SwimPlayer.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VROrigin = { UE4CodeGen_Private::EPropertyClass::Object, "VROrigin", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, VROrigin), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(NewProp_VROrigin_MetaData, ARRAY_COUNT(NewProp_VROrigin_MetaData)) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VROrigin = { UE4CodeGen_Private::EPropertyClass::Object, "VROrigin", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000080009, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, VROrigin), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(NewProp_VROrigin_MetaData, ARRAY_COUNT(NewProp_VROrigin_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_controllerBP_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_controllerBP = { UE4CodeGen_Private::EPropertyClass::Class, "controllerBP", RF_Public|RF_Transient|RF_MarkAsNative, 0x0014000000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, controllerBP), Z_Construct_UClass_AControllerHand_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_controllerBP_MetaData, ARRAY_COUNT(NewProp_controllerBP_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_maxSpeed,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_controllerBP,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fRadialSpeed,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_swimSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_camera,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_VROrigin,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_controllerBP,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<ASwimPlayer>::IsAbstract,
@@ -143,7 +151,7 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASwimPlayer, 4193466624);
+	IMPLEMENT_CLASS(ASwimPlayer, 3148822114);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASwimPlayer(Z_Construct_UClass_ASwimPlayer, &ASwimPlayer::StaticClass, TEXT("/Script/VRSwim"), TEXT("ASwimPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASwimPlayer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

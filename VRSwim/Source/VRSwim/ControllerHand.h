@@ -56,6 +56,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	float fSpeed = 200;
 
+
+
 	FTransform currentTransform;
 	FTransform lastTransform;	// The transform of the controller on the last frame
 	ASwimPlayer* player;
