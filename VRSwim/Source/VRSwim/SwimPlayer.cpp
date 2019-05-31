@@ -116,9 +116,6 @@ void ASwimPlayer::ComputeControllerRotation(AControllerHand* controller)
 
 	rotationStrength += (1 - FVector::DotProduct(controllerLocation.GetSafeNormal(), controllerForce)) * (controller->isRightHand?1:(-1));
 
-	if (GEngine) 
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString::Printf(TEXT("Rotation value %f"), rotationStrength * fRadialSpeed));
-
 	AddControllerYawInput(rotationStrength * fRadialSpeed);
 	
 }
