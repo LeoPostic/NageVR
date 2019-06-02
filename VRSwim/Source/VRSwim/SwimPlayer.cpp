@@ -100,7 +100,7 @@ void ASwimPlayer::UpdateMovementFromController(AControllerHand * controller)
 		if (controller->isRightHand)
 			RightForce = downVector.GetSafeNormal() * dot * swimSpeed;
 		else
-			LeftForce = downVector.GetSafeNormal() * dot * swimSpeed;
+			LeftForce = controllerMovement * dot * swimSpeed * (-1);
 	}
 }
 
@@ -110,14 +110,16 @@ void ASwimPlayer::ComputeControllerRotation(AControllerHand* controller)
 		|| (!controller->isRightHand && !isGrippingLeft))
 		return;
 
+	if (!ApplyRotation)
+		return;
+
 	FVector controllerLocation = (controller->GetActorLocation() - GetActorLocation());
-	FVector controllerForce = controller->isRightHand ? RightForce.GetSafeNormal() : LeftForce.GetSafeNormal();
-	float rotationStrength = 0;
+	FVector controllerForce = controller->isRightHand ? RightForce: LeftForce;
 
-	rotationStrength += (1 - FVector::DotProduct(controllerLocation.GetSafeNormal(), controllerForce)) * (controller->isRightHand?1:(-1));
-
-	AddControllerYawInput(rotationStrength * fRadialSpeed);
-	
+	currentRotation += (1 - FVector::DotProduct(controllerLocation.GetSafeNormal(), controllerForce.GetSafeNormal()))	// initial value based on the controller force and its angle with the player
+		* controllerForce.Size()	// scaled with the controller force magnitude
+		* fRotationSpeed			// scaled with the rotation speed
+		* (controller->isRightHand?1:(-1));	// adapted to the correct hand	
 }
 
 void ASwimPlayer::ResetForces()
@@ -130,7 +132,10 @@ void ASwimPlayer::ResetForces()
 void ASwimPlayer::ApplyMovement()
 {
 	MovementInput = LeftForce + RightForce;
+	currentRotation = FMath::Lerp(currentRotation, (float)0, fRotationDecrease);
+
 	AddMovementInput(MovementInput, GetWorld()->GetDeltaSeconds());
+	AddControllerYawInput(currentRotation);
 }
 
 

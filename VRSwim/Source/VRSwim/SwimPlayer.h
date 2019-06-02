@@ -31,9 +31,15 @@ public :
 
 	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
 	float swimSpeed = 50;
+	   
+	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
+	bool ApplyRotation;
 
 	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
-	float fRadialSpeed;
+	float fRotationSpeed;
+
+	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
+	float fRotationDecrease = 0.5;
 
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
@@ -61,5 +67,6 @@ protected:
 	AControllerHand* leftController;
 	bool isGrippingRight;
 	bool isGrippingLeft;
+	float currentRotation;
 		
 };

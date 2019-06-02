@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeVRSwim_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/VRSwim",
 				PKG_CompiledIn | 0x00000000,
-				0x3EA116F1,
+				0x63B1F0FA,
 				0xD399070D,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
