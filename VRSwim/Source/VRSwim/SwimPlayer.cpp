@@ -96,7 +96,7 @@ void ASwimPlayer::UpdateMovementFromController(AControllerHand * controller)
 		
 	dot = FVector::DotProduct(controllerMovement, downVector);
 
-	if (FMath::RadiansToDegrees(FMath::Acos(dot)) >= 180 - controller->fSwimAngle) {
+	if (FMath::RadiansToDegrees(FMath::Acos(dot)) >= 180 - swimAngle) {
 		if (controller->isRightHand)
 			RightForce = downVector.GetSafeNormal() * dot * swimSpeed;
 		else
@@ -115,10 +115,13 @@ void ASwimPlayer::ComputeControllerRotation(AControllerHand* controller)
 
 	FVector controllerLocation = (controller->GetActorLocation() - GetActorLocation());
 	FVector controllerForce = controller->isRightHand ? RightForce: LeftForce;
+	FVector projectedControllerLocation = FVector::VectorPlaneProject(controllerLocation, FVector(0, 0, 1));
+	FVector projectedControllerForce = FVector::VectorPlaneProject(controllerForce, FVector(0, 0, 1));
 
-	currentRotation += (1 - FVector::DotProduct(controllerLocation.GetSafeNormal(), controllerForce.GetSafeNormal()))	// initial value based on the controller force and its angle with the player
-		* controllerForce.Size()	// scaled with the controller force magnitude
-		* fRotationSpeed			// scaled with the rotation speed
+
+	currentRotation += (1 - FVector::DotProduct(projectedControllerLocation.GetSafeNormal(), projectedControllerForce.GetSafeNormal()))	// initial value based on the controller force and its angle with the player
+		* projectedControllerForce.Size()	// scaled with the controller force magnitude
+		* fRotationSpeed					// scaled with the rotation speed
 		* (controller->isRightHand?1:(-1));	// adapted to the correct hand	
 }
 
@@ -132,10 +135,10 @@ void ASwimPlayer::ResetForces()
 void ASwimPlayer::ApplyMovement()
 {
 	MovementInput = LeftForce + RightForce;
-	currentRotation = FMath::Lerp(currentRotation, (float)0, fRotationDecrease);
+	currentRotation = FMath::Clamp( FMath::Lerp(currentRotation, (float)0, fRotationDecrease), -fMaxRotationSpeed, fMaxRotationSpeed);
 
 	AddMovementInput(MovementInput, GetWorld()->GetDeltaSeconds());
-	AddControllerYawInput(currentRotation);
+	AddControllerYawInput(currentRotation * GetWorld()->GetDeltaSeconds());
 }
 
 

@@ -90,6 +90,13 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fMaxRotationSpeed_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_fMaxRotationSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "fMaxRotationSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, fMaxRotationSpeed), METADATA_PARAMS(NewProp_fMaxRotationSpeed_MetaData, ARRAY_COUNT(NewProp_fMaxRotationSpeed_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fRotationDecrease_MetaData[] = {
 				{ "Category", "SwimPlayer" },
 				{ "ModuleRelativePath", "SwimPlayer.h" },
@@ -111,6 +118,13 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 #endif
 			auto NewProp_ApplyRotation_SetBit = [](void* Obj){ ((ASwimPlayer*)Obj)->ApplyRotation = 1; };
 			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ApplyRotation = { UE4CodeGen_Private::EPropertyClass::Bool, "ApplyRotation", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ASwimPlayer), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_ApplyRotation_SetBit)>::SetBit, METADATA_PARAMS(NewProp_ApplyRotation_MetaData, ARRAY_COUNT(NewProp_ApplyRotation_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_swimAngle_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_swimAngle = { UE4CodeGen_Private::EPropertyClass::Float, "swimAngle", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, swimAngle), METADATA_PARAMS(NewProp_swimAngle_MetaData, ARRAY_COUNT(NewProp_swimAngle_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_swimSpeed_MetaData[] = {
 				{ "Category", "SwimPlayer" },
@@ -142,9 +156,11 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 #endif
 			static const UE4CodeGen_Private::FClassPropertyParams NewProp_controllerBP = { UE4CodeGen_Private::EPropertyClass::Class, "controllerBP", RF_Public|RF_Transient|RF_MarkAsNative, 0x0014000000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, controllerBP), Z_Construct_UClass_AControllerHand_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_controllerBP_MetaData, ARRAY_COUNT(NewProp_controllerBP_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fMaxRotationSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fRotationDecrease,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fRotationSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ApplyRotation,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_swimAngle,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_swimSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_camera,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_VROrigin,
@@ -168,7 +184,7 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASwimPlayer, 293007375);
+	IMPLEMENT_CLASS(ASwimPlayer, 1609176437);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASwimPlayer(Z_Construct_UClass_ASwimPlayer, &ASwimPlayer::StaticClass, TEXT("/Script/VRSwim"), TEXT("ASwimPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASwimPlayer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

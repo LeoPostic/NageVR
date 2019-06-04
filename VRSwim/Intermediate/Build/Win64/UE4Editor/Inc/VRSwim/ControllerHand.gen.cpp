@@ -44,29 +44,6 @@ void EmptyLinkFunctionForGeneratedCodeControllerHand() {}
 			};
 #endif
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fSpeed_MetaData[] = {
-				{ "Category", "ControllerHand" },
-				{ "ModuleRelativePath", "ControllerHand.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_fSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "fSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AControllerHand, fSpeed), METADATA_PARAMS(NewProp_fSpeed_MetaData, ARRAY_COUNT(NewProp_fSpeed_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fSwimAngle_MetaData[] = {
-				{ "Category", "ControllerHand" },
-				{ "ModuleRelativePath", "ControllerHand.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_fSwimAngle = { UE4CodeGen_Private::EPropertyClass::Float, "fSwimAngle", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000004, 1, nullptr, STRUCT_OFFSET(AControllerHand, fSwimAngle), METADATA_PARAMS(NewProp_fSwimAngle_MetaData, ARRAY_COUNT(NewProp_fSwimAngle_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isGripping_MetaData[] = {
-				{ "Category", "ControllerHand" },
-				{ "ModuleRelativePath", "ControllerHand.h" },
-				{ "ToolTip", "Determine which hand holds the controller" },
-			};
-#endif
-			auto NewProp_isGripping_SetBit = [](void* Obj){ ((AControllerHand*)Obj)->isGripping = 1; };
-			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isGripping = { UE4CodeGen_Private::EPropertyClass::Bool, "isGripping", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000014, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AControllerHand), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_isGripping_SetBit)>::SetBit, METADATA_PARAMS(NewProp_isGripping_MetaData, ARRAY_COUNT(NewProp_isGripping_MetaData)) };
-#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isRightHand_MetaData[] = {
 				{ "Category", "ControllerHand" },
 				{ "ModuleRelativePath", "ControllerHand.h" },
@@ -99,9 +76,6 @@ void EmptyLinkFunctionForGeneratedCodeControllerHand() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VRChaperoneComponent = { UE4CodeGen_Private::EPropertyClass::Object, "VRChaperoneComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AControllerHand, VRChaperoneComponent), Z_Construct_UClass_USteamVRChaperoneComponent_NoRegister, METADATA_PARAMS(NewProp_VRChaperoneComponent_MetaData, ARRAY_COUNT(NewProp_VRChaperoneComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fSpeed,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fSwimAngle,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_isGripping,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_isRightHand,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_skeletalMesh,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MotionController,
@@ -125,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeControllerHand() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AControllerHand, 794872343);
+	IMPLEMENT_CLASS(AControllerHand, 923579198);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AControllerHand(Z_Construct_UClass_AControllerHand, &AControllerHand::StaticClass, TEXT("/Script/VRSwim"), TEXT("AControllerHand"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AControllerHand);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -42,20 +42,9 @@ public:
 	virtual void SetPlayer(ASwimPlayer* p) { player = p; }
 	virtual void SetupMotionSource();
 	virtual void RecordLasTransform();
-	virtual void ComputeMovement();
 
 	UPROPERTY(BlueprintReadOnly)
 	bool isRightHand;			// Determine which hand holds the controller
-
-	UPROPERTY(BlueprintReadOnly)
-	bool isGripping;
-
-	UPROPERTY(BlueprintReadWrite)
-	float fSwimAngle = 30;
-
-	UPROPERTY(EditAnywhere)
-	float fSpeed = 200;
-
 
 
 	FTransform currentTransform;

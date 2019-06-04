@@ -23,7 +23,6 @@ AControllerHand::AControllerHand()
 void AControllerHand::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -51,29 +50,3 @@ void AControllerHand::RecordLasTransform()
 	lastTransform = currentTransform;
 	currentTransform = MotionController->GetComponentTransform();
 }
-
-void AControllerHand::ComputeMovement()
-{
-	
-
-	/*
-	FRotator controllerRotator = MotionController->GetComponentRotation();
-	FVector controllerMovement = lastTransform.GetLocation() - MotionController->GetComponentLocation();
-	FVector downVector = FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::Y);
-	float dot;
-
-	controllerMovement.Normalize();
-	downVector.Normalize();
-	
-
-	dot = FVector::DotProduct(controllerMovement, 
-		downVector);
-
-
-	if (FMath::RadiansToDegrees(FMath::Acos(dot)) >= 180 - fSwimAngle) {
-		//player->GetCharacterMovement()->AddImpulse(downVector * dot * (-1) * fSpeed *  GetWorld()->GetDeltaSeconds());
-		//player->AddMovementInput(downVector * (-1), dot * fSpeed * GetWorld()->GetDeltaSeconds(), true);	
-		player->GetCapsuleComponent()->AddForce(downVector * dot * (-1) * fSpeed *  GetWorld()->GetDeltaSeconds());
-	}*/
-}
-

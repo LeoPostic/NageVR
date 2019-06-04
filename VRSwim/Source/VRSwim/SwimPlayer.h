@@ -31,6 +31,9 @@ public :
 
 	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
 	float swimSpeed = 50;
+
+	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
+	float swimAngle = 30;
 	   
 	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
 	bool ApplyRotation;
@@ -40,6 +43,9 @@ public :
 
 	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
 	float fRotationDecrease = 0.5;
+
+	UPROPERTY(EditAnywhere, Category = "SwimPlayer")
+	float fMaxRotationSpeed = 40;
 
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
