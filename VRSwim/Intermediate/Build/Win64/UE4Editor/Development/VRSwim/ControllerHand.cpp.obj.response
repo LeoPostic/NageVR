@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source"
-/I D:\UnrealProjects\NageVR\VRSwim\Source
-/I D:\UnrealProjects\NageVR\VRSwim\Intermediate\Build\Win64\UE4Editor\Inc\VRSwim
-/I D:\UnrealProjects\NageVR\VRSwim\Source\VRSwim
+/I C:\Users\Gautier\Documents\NageVr\NageVR\VRSwim\Source
+/I C:\Users\Gautier\Documents\NageVr\NageVR\VRSwim\Intermediate\Build\Win64\UE4Editor\Inc\VRSwim
+/I C:\Users\Gautier\Documents\NageVr\NageVR\VRSwim\Source\VRSwim
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Async"
@@ -372,9 +372,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\UnrealProjects\NageVR\VRSwim\Source\VRSwim\ControllerHand.cpp"
-/FI"D:\UnrealProjects\NageVR\VRSwim\Intermediate\Build\Win64\UE4Editor\Development\VRSwim\Definitions.VRSwim.h"
-/Fo"D:\UnrealProjects\NageVR\VRSwim\Intermediate\Build\Win64\UE4Editor\Development\VRSwim\ControllerHand.cpp.obj"
+"C:\Users\Gautier\Documents\NageVr\NageVR\VRSwim\Source\VRSwim\ControllerHand.cpp"
+/FI"C:\Users\Gautier\Documents\NageVr\NageVR\VRSwim\Intermediate\Build\Win64\UE4Editor\Development\VRSwim\Definitions.VRSwim.h"
+/Fo"C:\Users\Gautier\Documents\NageVr\NageVR\VRSwim\Intermediate\Build\Win64\UE4Editor\Development\VRSwim\ControllerHand.cpp.obj"
 /TP
 /GR-
 /W4
