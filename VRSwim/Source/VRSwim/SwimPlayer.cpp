@@ -86,19 +86,29 @@ void ASwimPlayer::UpdateMovementFromController(AControllerHand * controller)
 
 	FRotator controllerRotator = controller->MotionController->GetComponentRotation();
 	FVector controllerMovement = controller->lastTransform.GetLocation() - controller->MotionController->GetComponentLocation();
-	FVector downVector = FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::Y);
+	FVector downVector = FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::X);
 	float dot;
 
-	downVector.RotateAngleAxis(-30, FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::X));
 
-	if (controller->isRightHand) 
-		downVector *= (-1);	
-		
+	if (controller->isRightHand) {
+		downVector = downVector.RotateAngleAxis(yRight, FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::Y));
+		downVector = downVector.RotateAngleAxis(xRight, FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::X));
+		downVector = downVector.RotateAngleAxis(zRight, FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::Z));
+	}
+	else
+	{
+		downVector = downVector.RotateAngleAxis(yLeft, FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::Y));
+		downVector = downVector.RotateAngleAxis(xLeft, FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::X));
+		downVector = downVector.RotateAngleAxis(zLeft, FRotationMatrix(controllerRotator).GetScaledAxis(EAxis::Z));
+	}
+;	
+
+
 	dot = FVector::DotProduct(controllerMovement, downVector);
 
 	if (FMath::RadiansToDegrees(FMath::Acos(dot)) >= 180 - swimAngle) {
 		if (controller->isRightHand)
-			RightForce = downVector.GetSafeNormal() * dot * swimSpeed;
+			RightForce = controllerMovement * dot * swimSpeed * (-1);
 		else
 			LeftForce = controllerMovement * dot * swimSpeed * (-1);
 	}
@@ -109,6 +119,9 @@ void ASwimPlayer::ComputeControllerRotation(AControllerHand* controller)
 	if ((controller->isRightHand && !isGrippingRight)
 		|| (!controller->isRightHand && !isGrippingLeft))
 		return;
+	   
+	if (isGrippingLeft && isGrippingRight || !isGrippingLeft && !isGrippingRight)
+		return;
 
 	if (!ApplyRotation)
 		return;
@@ -118,11 +131,32 @@ void ASwimPlayer::ComputeControllerRotation(AControllerHand* controller)
 	FVector projectedControllerLocation = FVector::VectorPlaneProject(controllerLocation, FVector(0, 0, 1));
 	FVector projectedControllerForce = FVector::VectorPlaneProject(controllerForce, FVector(0, 0, 1));
 
+	FVector rotatedForce = controllerForce.RotateAngleAxis(90, FVector(0, 0, 1));
 
-	currentRotation += (1 - FVector::DotProduct(projectedControllerLocation.GetSafeNormal(), projectedControllerForce.GetSafeNormal()))	// initial value based on the controller force and its angle with the player
+
+
+	float orientation = FVector::DotProduct(controllerLocation.GetSafeNormal(), rotatedForce.GetSafeNormal());
+	
+	float hand = controller->isRightHand ? -1 : 1;
+
+	if(orientation != 0)
+		orientation = (orientation < 0) ? -1 : 1;
+
+
+	if(orientation!=0)
+		currentRotation += (1 - FVector::DotProduct(projectedControllerLocation.GetSafeNormal(), projectedControllerForce.GetSafeNormal()))	// initial value based on the controller force and its angle with the player
+			* projectedControllerForce.Size()	// scaled with the controller force magnitude
+			* fRotationSpeed					// scaled with the rotation speed
+			* orientation
+			* hand
+			* (controller->isRightHand?1:(-1));	// adapted to the correct hand
+	else
+		currentRotation += (1 - FVector::DotProduct(projectedControllerLocation.GetSafeNormal(), projectedControllerForce.GetSafeNormal()))	// initial value based on the controller force and its angle with the player
 		* projectedControllerForce.Size()	// scaled with the controller force magnitude
 		* fRotationSpeed					// scaled with the rotation speed
-		* (controller->isRightHand?1:(-1));	// adapted to the correct hand	
+		* hand
+		* (controller->isRightHand ? 1 : (-1));	// adapted to the correct hand
+
 }
 
 void ASwimPlayer::ResetForces()
@@ -137,7 +171,9 @@ void ASwimPlayer::ApplyMovement()
 	MovementInput = LeftForce + RightForce;
 	currentRotation = FMath::Clamp( FMath::Lerp(currentRotation, (float)0, fRotationDecrease), -fMaxRotationSpeed, fMaxRotationSpeed);
 
-	AddMovementInput(MovementInput, GetWorld()->GetDeltaSeconds());
+	if(isGrippingLeft && isGrippingRight)
+		AddMovementInput(MovementInput, GetWorld()->GetDeltaSeconds());
+
 	AddControllerYawInput(currentRotation * GetWorld()->GetDeltaSeconds());
 }
 

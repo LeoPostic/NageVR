@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeControllerHand() {}
 	VRSWIM_API UClass* Z_Construct_UClass_AControllerHand();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_VRSwim();
+	VRSWIM_API UClass* Z_Construct_UClass_ASwimPlayer_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	STEAMVR_API UClass* Z_Construct_UClass_USteamVRChaperoneComponent_NoRegister();
@@ -43,6 +44,14 @@ void EmptyLinkFunctionForGeneratedCodeControllerHand() {}
 				{ "ModuleRelativePath", "ControllerHand.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_player_MetaData[] = {
+				{ "Category", "ControllerHand" },
+				{ "ModuleRelativePath", "ControllerHand.h" },
+				{ "ToolTip", "The transform of the controller on the last frame" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_player = { UE4CodeGen_Private::EPropertyClass::Object, "player", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000014, 1, nullptr, STRUCT_OFFSET(AControllerHand, player), Z_Construct_UClass_ASwimPlayer_NoRegister, METADATA_PARAMS(NewProp_player_MetaData, ARRAY_COUNT(NewProp_player_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isRightHand_MetaData[] = {
 				{ "Category", "ControllerHand" },
@@ -76,6 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeControllerHand() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VRChaperoneComponent = { UE4CodeGen_Private::EPropertyClass::Object, "VRChaperoneComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x001000000008000d, 1, nullptr, STRUCT_OFFSET(AControllerHand, VRChaperoneComponent), Z_Construct_UClass_USteamVRChaperoneComponent_NoRegister, METADATA_PARAMS(NewProp_VRChaperoneComponent_MetaData, ARRAY_COUNT(NewProp_VRChaperoneComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_player,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_isRightHand,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_skeletalMesh,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MotionController,
@@ -99,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeControllerHand() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AControllerHand, 923579198);
+	IMPLEMENT_CLASS(AControllerHand, 4187055612);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AControllerHand(Z_Construct_UClass_AControllerHand, &AControllerHand::StaticClass, TEXT("/Script/VRSwim"), TEXT("AControllerHand"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AControllerHand);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

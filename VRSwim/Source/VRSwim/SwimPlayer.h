@@ -71,8 +71,26 @@ protected:
 	FVector LeftForce;
 	AControllerHand* rightController;
 	AControllerHand* leftController;
+
+	UPROPERTY(BlueprintReadOnly)
 	bool isGrippingRight;
+
+	UPROPERTY(BlueprintReadOnly)
 	bool isGrippingLeft;
+
 	float currentRotation;
+
+	UPROPERTY(EditAnywhere)
+	float xRight;
+	UPROPERTY(EditAnywhere)
+	float yRight;
+	UPROPERTY(EditAnywhere)
+	float zRight;
+	UPROPERTY(EditAnywhere)
+	float xLeft;
+	UPROPERTY(EditAnywhere)
+	float yLeft;
+	UPROPERTY(EditAnywhere)
+	float zLeft;
 		
 };

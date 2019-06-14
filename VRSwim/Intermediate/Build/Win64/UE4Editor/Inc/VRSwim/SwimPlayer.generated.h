@@ -95,7 +95,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASwimPlayer); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASwimPlayer)
 
 
-#define VRSwim_Source_VRSwim_SwimPlayer_h_18_PRIVATE_PROPERTY_OFFSET
+#define VRSwim_Source_VRSwim_SwimPlayer_h_18_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__isGrippingRight() { return STRUCT_OFFSET(ASwimPlayer, isGrippingRight); } \
+	FORCEINLINE static uint32 __PPO__isGrippingLeft() { return STRUCT_OFFSET(ASwimPlayer, isGrippingLeft); } \
+	FORCEINLINE static uint32 __PPO__xRight() { return STRUCT_OFFSET(ASwimPlayer, xRight); } \
+	FORCEINLINE static uint32 __PPO__yRight() { return STRUCT_OFFSET(ASwimPlayer, yRight); } \
+	FORCEINLINE static uint32 __PPO__zRight() { return STRUCT_OFFSET(ASwimPlayer, zRight); } \
+	FORCEINLINE static uint32 __PPO__xLeft() { return STRUCT_OFFSET(ASwimPlayer, xLeft); } \
+	FORCEINLINE static uint32 __PPO__yLeft() { return STRUCT_OFFSET(ASwimPlayer, yLeft); } \
+	FORCEINLINE static uint32 __PPO__zLeft() { return STRUCT_OFFSET(ASwimPlayer, zLeft); }
+
+
 #define VRSwim_Source_VRSwim_SwimPlayer_h_14_PROLOG
 #define VRSwim_Source_VRSwim_SwimPlayer_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
