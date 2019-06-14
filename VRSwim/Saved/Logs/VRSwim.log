@@ -544,3 +544,974 @@ LogInit: Object subsystem initialized
 [2019.06.14-14.03.08:998][762]LogHttp: Warning: 00000039D5D2D000: request failed, libcurl error: 6 (Couldn't resolve host name)
 [2019.06.14-14.03.08:999][762]LogHttp: Warning: 00000039D5D2D000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
 [2019.06.14-14.03.08:999][762]LogHttp: Warning: 00000039D5D2D000: libcurl info message cache 1 (Closing connection 9)
+[2019.06.14-14.05.09:665][124]LogHttp: Warning: 00000039D5D2CA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.14-14.05.09:665][124]LogHttp: Warning: 00000039D5D2CA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.14-14.05.09:665][124]LogHttp: Warning: 00000039D5D2CA00: libcurl info message cache 1 (Closing connection 10)
+[2019.06.14-14.07.09:998][485]LogHttp: Warning: 00000039D5D2C100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.14-14.07.09:998][485]LogHttp: Warning: 00000039D5D2C100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.14-14.07.09:998][485]LogHttp: Warning: 00000039D5D2C100: libcurl info message cache 1 (Closing connection 11)
+[2019.06.14-14.30.38:378][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.31.30:384][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.32.25:506][141]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.06.14-14.32.25:616][142]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.06.14-14.32.25:645][142]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2019.06.14-14.32.25:982][157]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.06.14-14.32.39:564][775]LogActorFactory: Actor Factory created SM_Shell
+[2019.06.14-14.32.41:838][902]LogActorFactory: Actor Factory created SM_Shell
+[2019.06.14-14.32.58:223][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.33.15:269][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.33.19:967][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.33.37:950][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.33.50:154][895]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.33.50:966][937]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.33.51:692][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shell)
+[2019.06.14-14.33.59:073][404]Cmd: TRANSACTION UNDO
+[2019.06.14-14.33.59:073][404]LogEditorTransaction: Undo Scale Actors
+[2019.06.14-14.33.59:483][423]Cmd: TRANSACTION UNDO
+[2019.06.14-14.33.59:483][423]LogEditorTransaction: Undo Scale Actors
+[2019.06.14-14.33.59:782][438]Cmd: TRANSACTION UNDO
+[2019.06.14-14.33.59:782][438]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-14.34.00:121][451]Cmd: TRANSACTION UNDO
+[2019.06.14-14.34.00:121][451]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-14.34.01:132][507]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.34.02:196][565]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.34.02:965][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shell)
+[2019.06.14-14.34.03:699][644]Cmd: TRANSACTION UNDO
+[2019.06.14-14.34.03:699][644]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-14.34.04:214][667]Cmd: TRANSACTION UNDO
+[2019.06.14-14.34.04:214][667]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-14.34.04:651][691]Cmd: TRANSACTION UNDO
+[2019.06.14-14.34.04:652][691]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-14.34.05:071][715]Cmd: TRANSACTION UNDO
+[2019.06.14-14.34.05:071][715]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-14.34.05:570][741]Cmd: TRANSACTION UNDO
+[2019.06.14-14.34.05:570][741]LogEditorTransaction: Undo Scale Actors
+[2019.06.14-14.34.08:615][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.34.17:643][452]Cmd: EDIT COPY
+[2019.06.14-14.34.18:083][478]Cmd: EDIT PASTE
+[2019.06.14-14.34.21:020][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.34.30:273][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.34.40:563][782]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.34.44:962][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shell2)
+[2019.06.14-14.34.48:483][225]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.35.13:048][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.35.17:964][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (73)
+[2019.06.14-14.35.20:520][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.35.39:168][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.35.46:992][267]LogActorFactory: Actor Factory created SM_Anemone
+[2019.06.14-14.35.50:588][468]LogActorFactory: Actor Factory created SM_Anemone
+[2019.06.14-14.35.52:647][586]Cmd: DELETE
+[2019.06.14-14.35.52:647][586]Cmd: ACTOR DELETE
+[2019.06.14-14.35.52:706][586]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.14-14.35.52:717][586]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039f2494720, Size=160
+[2019.06.14-14.35.52:718][586]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2019.06.14-14.35.55:906][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.36.13:955][633]Cmd: DELETE
+[2019.06.14-14.36.13:955][633]Cmd: ACTOR DELETE
+[2019.06.14-14.36.13:973][633]LogEditorActor: Deleted Actor: Emitter
+[2019.06.14-14.36.13:989][633]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.06.14-14.36.17:499][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.36.40:868][187]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a03229da0, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.14-14.36.40:872][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a03229da0, Size=160
+[2019.06.14-14.36.40:872][187]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d59da340, Size=160, Default__Demonstration_C Function /Engine/Transient.REINST_Demonstration_C_26:ExecuteUbergraph_Demonstration
+[2019.06.14-14.36.40:876][187]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d59d98a0, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.14-14.36.42:504][187]LogAIModule: Creating AISystem for world Demonstration
+[2019.06.14-14.36.42:581][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d59da340, Size=160
+[2019.06.14-14.36.45:260][187]LogSlate: Window 'Save Content' being destroyed
+[2019.06.14-14.36.45:414][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039b7d58c20, Size=160
+[2019.06.14-14.36.45:414][187]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d59d9120, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_30:ExecuteUbergraph_LD
+[2019.06.14-14.36.45:418][187]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039b7d58720, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.36.46:204][187]LogSavePackage: Save=806.40ms
+[2019.06.14-14.36.46:204][187]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD6777F9FB4E6BA468F8725B8D24B7BDE4.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.14-14.36.46:208][187]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.14-14.36.46:292][187]LogFileHelpers: Saving map 'LD' took 1.013
+[2019.06.14-14.36.46:294][187]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/Demonstration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-14.36.46:294][187]LightingResults: New page: Lighting Build
+[2019.06.14-14.36.46:294][187]LoadErrors: New page: Loading map: Demonstration.umap
+[2019.06.14-14.36.46:310][187]MapCheck: New page: Map Check
+[2019.06.14-14.36.46:310][187]LightingResults: New page: Lighting Build
+[2019.06.14-14.36.46:326][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d59d9120, Size=160
+[2019.06.14-14.36.46:326][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039b7d58720, Size=160
+[2019.06.14-14.37.01:743][187]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-14.37.01:790][187]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-14.37.01:877][187]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87,384ms to complete.
+[2019.06.14-14.37.01:877][187]LogFileHelpers: Loading map 'Demonstration' took 15.585
+[2019.06.14-14.37.15:464][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.37.19:520][909]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2019.06.14-14.37.28:193][257]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.37.40:648][698]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.37.41:432][724]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight31)
+[2019.06.14-14.37.44:589][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.37.45:086][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.37.50:640][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.38.16:852][906]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d557a200, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.38.16:858][906]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d557a200, Size=160
+[2019.06.14-14.38.16:858][906]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d1950220, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_32:ExecuteUbergraph_LD
+[2019.06.14-14.38.16:862][906]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039cec30540, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.38.17:446][906]LogAIModule: Creating AISystem for world LD
+[2019.06.14-14.38.17:521][906]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d1950220, Size=160
+[2019.06.14-14.38.21:966][906]LogSlate: Window 'Save Content' being destroyed
+[2019.06.14-14.38.21:970][906]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-14.38.21:971][906]LightingResults: New page: Lighting Build
+[2019.06.14-14.38.21:973][906]LoadErrors: New page: Loading map: LD.umap
+[2019.06.14-14.38.21:979][906]MapCheck: New page: Map Check
+[2019.06.14-14.38.21:979][906]LightingResults: New page: Lighting Build
+[2019.06.14-14.38.21:996][906]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d59d98a0, Size=160
+[2019.06.14-14.38.35:814][906]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-14.38.35:866][906]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-14.38.35:956][906]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89,979ms to complete.
+[2019.06.14-14.38.35:961][906]LogFileHelpers: Loading map 'LD' took 13.994
+[2019.06.14-14.38.50:870][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shell)
+[2019.06.14-14.39.00:325][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shell2)
+[2019.06.14-14.39.30:210][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.39.50:815][769]LogActorFactory: Actor Factory created SM_Anemone
+[2019.06.14-14.39.55:904][ 66]LogActorFactory: Actor Factory created SM_Anemone
+[2019.06.14-14.40.01:444][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.40.29:583][893]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d59d6200, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.14-14.40.29:589][893]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d59d6200, Size=160
+[2019.06.14-14.40.29:589][893]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039cec31b20, Size=160, Default__Demonstration_C Function /Engine/Transient.REINST_Demonstration_C_34:ExecuteUbergraph_Demonstration
+[2019.06.14-14.40.29:593][893]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039cec32340, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.14-14.40.30:103][893]LogAIModule: Creating AISystem for world Demonstration
+[2019.06.14-14.40.30:184][893]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039cec31b20, Size=160
+[2019.06.14-14.40.32:632][893]LogSlate: Window 'Save Content' being destroyed
+[2019.06.14-14.40.32:774][893]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039cec30540, Size=160
+[2019.06.14-14.40.32:774][893]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039f079f100, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_38:ExecuteUbergraph_LD
+[2019.06.14-14.40.32:778][893]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a02fd7e20, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.40.33:563][893]LogSavePackage: Save=809.34ms
+[2019.06.14-14.40.33:563][893]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD00F1D8C94B050EB4A49230A59070E79D.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.14-14.40.33:567][893]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.14-14.40.33:606][893]LogFileHelpers: Saving map 'LD' took 0.969
+[2019.06.14-14.40.33:607][893]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/Demonstration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-14.40.33:607][893]LightingResults: New page: Lighting Build
+[2019.06.14-14.40.33:608][893]LoadErrors: New page: Loading map: Demonstration.umap
+[2019.06.14-14.40.33:614][893]MapCheck: New page: Map Check
+[2019.06.14-14.40.33:614][893]LightingResults: New page: Lighting Build
+[2019.06.14-14.40.33:631][893]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a02fd7e20, Size=160
+[2019.06.14-14.40.33:632][893]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039f079f100, Size=160
+[2019.06.14-14.40.47:928][893]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-14.40.47:979][893]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-14.40.48:072][893]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93,134ms to complete.
+[2019.06.14-14.40.48:072][893]LogFileHelpers: Loading map 'Demonstration' took 14.465
+[2019.06.14-14.41.04:767][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.41.09:001][729]Cmd: EDIT COPY
+[2019.06.14-14.41.12:410][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.41.12:656][849]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039c8093ce0, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.41.12:662][849]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039c8093ce0, Size=160
+[2019.06.14-14.41.12:662][849]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d541d580, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_40:ExecuteUbergraph_LD
+[2019.06.14-14.41.12:665][849]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d541f920, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.41.13:264][849]LogAIModule: Creating AISystem for world LD
+[2019.06.14-14.41.13:342][849]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d541d580, Size=160
+[2019.06.14-14.41.13:345][849]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-14.41.13:345][849]LightingResults: New page: Lighting Build
+[2019.06.14-14.41.13:346][849]LoadErrors: New page: Loading map: LD.umap
+[2019.06.14-14.41.13:354][849]MapCheck: New page: Map Check
+[2019.06.14-14.41.13:354][849]LightingResults: New page: Lighting Build
+[2019.06.14-14.41.13:372][849]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039cec32340, Size=160
+[2019.06.14-14.41.28:191][849]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-14.41.28:250][849]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-14.41.28:337][849]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87,34ms to complete.
+[2019.06.14-14.41.28:337][849]LogFileHelpers: Loading map 'LD' took 14.994
+[2019.06.14-14.41.29:943][935]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.41.31:937][ 46]Cmd: EDIT PASTE
+[2019.06.14-14.41.36:473][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.41.53:684][292]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Coral_B2)
+[2019.06.14-14.41.53:750][292]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-14.41.54:660][339]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-14.41.55:815][405]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-14.41.56:417][441]LogEditorViewport: Clicking Background
+[2019.06.14-14.42.03:504][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.42.24:804][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (54)
+[2019.06.14-14.42.27:034][957]Cmd: TRANSACTION UNDO
+[2019.06.14-14.42.27:034][957]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-14.43.02:767][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Anemone)
+[2019.06.14-14.43.05:231][941]Cmd: DELETE
+[2019.06.14-14.43.05:231][941]Cmd: ACTOR DELETE
+[2019.06.14-14.43.05:247][941]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.14-14.43.05:261][941]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.06.14-14.43.06:778][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.43.33:329][501]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.44.00:026][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.44.02:034][ 14]LogActorFactory: Actor Factory created SM_Jellyfish
+[2019.06.14-14.44.06:368][239]LogActorFactory: Actor Factory created SM_Jellyfish
+[2019.06.14-14.44.36:196][729]Cmd: EDIT COPY
+[2019.06.14-14.44.37:410][786]Cmd: EDIT PASTE
+[2019.06.14-14.44.50:529][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Jellyfish)
+[2019.06.14-14.45.37:117][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.45.38:228][131]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a02fd54e0, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.14-14.45.38:233][131]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a02fd54e0, Size=160
+[2019.06.14-14.45.38:233][131]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a1ba514e0, Size=160, Default__Demonstration_C Function /Engine/Transient.REINST_Demonstration_C_42:ExecuteUbergraph_Demonstration
+[2019.06.14-14.45.38:238][131]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a1b378180, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.14-14.45.38:747][131]LogAIModule: Creating AISystem for world Demonstration
+[2019.06.14-14.45.38:821][131]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a1ba514e0, Size=160
+[2019.06.14-14.45.40:436][131]LogSlate: Window 'Save Content' being destroyed
+[2019.06.14-14.45.40:440][131]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/Demonstration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-14.45.40:441][131]LightingResults: New page: Lighting Build
+[2019.06.14-14.45.40:442][131]LoadErrors: New page: Loading map: Demonstration.umap
+[2019.06.14-14.45.40:447][131]MapCheck: New page: Map Check
+[2019.06.14-14.45.40:447][131]LightingResults: New page: Lighting Build
+[2019.06.14-14.45.40:462][131]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d541f920, Size=160
+[2019.06.14-14.45.55:019][131]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-14.45.55:071][131]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-14.45.55:172][131]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99,915ms to complete.
+[2019.06.14-14.45.55:172][131]LogFileHelpers: Loading map 'Demonstration' took 14.733
+[2019.06.14-14.46.30:906][658]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.46.45:015][237]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_10)
+[2019.06.14-14.46.45:168][238]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
+[2019.06.14-14.46.47:343][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.46.49:342][420]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_10)
+[2019.06.14-14.46.49:869][441]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_10)
+[2019.06.14-14.46.50:641][473]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_10)
+[2019.06.14-14.46.51:812][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.46.54:948][698]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel.Demonstration' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel.Demonstration'
+[2019.06.14-14.46.54:965][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-14.46.54:983][698]PIE: New page: PIE session: Demonstration (14 juin 2019 06:46:54)
+[2019.06.14-14.46.54:995][698]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_Demonstration
+[2019.06.14-14.46.55:090][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095171s)
+[2019.06.14-14.46.55:092][698]LogAIModule: Creating AISystem for world Demonstration
+[2019.06.14-14.46.55:092][698]LogPlayLevel: PIE: World Init took: (0.001341s)
+[2019.06.14-14.46.55:092][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_Demonstration.Demonstration (0.096990s)
+[2019.06.14-14.46.55:110][698]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-14.46.55:118][698]LogInit: FAudioDevice initialized.
+[2019.06.14-14.46.55:160][698]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-14.46.55:215][698]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_Demonstration.Demonstration up for play (max tick rate 60) at 2019.06.14-10.46.55
+[2019.06.14-14.47.10:444][698]LogWorld: Bringing up level for play took: 15.254987
+[2019.06.14-14.47.10:485][698]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2019.06.14-14.47.10:513][698]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_Demonstration.Demonstration:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.47.10:513][698]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_Demonstration.Demonstration:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.47.10:514][698]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_Demonstration 14,706
+[2019.06.14-14.47.10:514][698]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel.Demonstration' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel.Demonstration'
+[2019.06.14-14.47.21:507][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel.Demonstration' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel.Demonstration'
+[2019.06.14-14.47.21:640][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel.Demonstration' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration:PersistentLevel.Demonstration'
+[2019.06.14-14.47.38:524][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.47.41:272][ 14]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (P_GlowingPlankton_Rainbow2)
+[2019.06.14-14.47.42:772][ 69]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight8)
+[2019.06.14-14.47.45:306][162]Cmd: EDIT COPY
+[2019.06.14-14.47.53:690][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shell_Mesh)
+[2019.06.14-14.47.54:506][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.47.55:048][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.48.01:068][716]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight8)
+[2019.06.14-14.48.01:883][740]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (P_GlowingPlankton_Rainbow2)
+[2019.06.14-14.48.04:452][831]Cmd: EDIT COPY
+[2019.06.14-14.48.07:466][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.48.07:698][944]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039c39bede0, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.48.07:704][944]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039c39bede0, Size=160
+[2019.06.14-14.48.07:704][944]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a1d5f6840, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_44:ExecuteUbergraph_LD
+[2019.06.14-14.48.07:708][944]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a1f0756c0, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.48.08:306][944]LogAIModule: Creating AISystem for world LD
+[2019.06.14-14.48.08:383][944]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a1d5f6840, Size=160
+[2019.06.14-14.48.09:616][944]LogSlate: Window 'Save Content' being destroyed
+[2019.06.14-14.48.09:619][944]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-14.48.09:620][944]LightingResults: New page: Lighting Build
+[2019.06.14-14.48.09:620][944]LoadErrors: New page: Loading map: LD.umap
+[2019.06.14-14.48.09:627][944]MapCheck: New page: Map Check
+[2019.06.14-14.48.09:627][944]LightingResults: New page: Lighting Build
+[2019.06.14-14.48.09:644][944]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a1b378180, Size=160
+[2019.06.14-14.48.24:248][944]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-14.48.24:304][944]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-14.48.24:396][944]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92,481ms to complete.
+[2019.06.14-14.48.24:396][944]LogFileHelpers: Loading map 'LD' took 14.778
+[2019.06.14-14.48.31:125][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.48.31:977][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.48.32:739][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.48.33:152][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.48.34:721][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shell)
+[2019.06.14-14.48.35:490][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Anemone)
+[2019.06.14-14.48.36:803][639]Cmd: DELETE
+[2019.06.14-14.48.36:803][639]Cmd: ACTOR DELETE
+[2019.06.14-14.48.36:821][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.14-14.48.36:835][639]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.06.14-14.48.38:684][749]Cmd: EDIT PASTE
+[2019.06.14-14.50.10:341][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.50.11:455][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.50.11:892][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.50.12:948][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.50.13:389][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.50.15:443][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shell2)
+[2019.06.14-14.50.15:497][425]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-14.50.17:179][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.50.22:581][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.50.27:950][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.14-14.50.30:211][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.50.35:073][506]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.50.37:594][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shell)
+[2019.06.14-14.50.40:746][818]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-14.50.52:266][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (34)
+[2019.06.14-14.51.41:236][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.51.43:152][528]LogActorFactory: Actor Factory created SM_Jellyfish
+[2019.06.14-14.51.44:752][605]LogActorFactory: Actor Factory created SM_Jellyfish
+[2019.06.14-14.51.47:335][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.51.48:105][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Jellyfish)
+[2019.06.14-14.51.52:764][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.51.52:824][  6]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-14.51.52:860][  6]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.51.52:860][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-14.51.52:860][  6]PIE: New page: PIE session: LD (14 juin 2019 06:51:52)
+[2019.06.14-14.51.52:860][  6]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.14-14.51.52:910][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049772s)
+[2019.06.14-14.51.52:911][  6]LogAIModule: Creating AISystem for world LD
+[2019.06.14-14.51.52:911][  6]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2019.06.14-14.51.52:911][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.051030s)
+[2019.06.14-14.51.52:932][  6]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-14.51.52:945][  6]LogInit: FAudioDevice initialized.
+[2019.06.14-14.51.52:979][  6]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-14.51.52:995][  6]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 60) at 2019.06.14-10.51.52
+[2019.06.14-14.52.07:724][  6]LogWorld: Bringing up level for play took: 14.743492
+[2019.06.14-14.52.07:731][  6]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.52.07:731][  6]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.52.07:732][  6]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 13,924
+[2019.06.14-14.52.07:732][  6]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.52.15:197][440]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.52.15:241][440]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.52.21:363][792]Cmd: SELECT NONE
+[2019.06.14-14.52.22:918][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.52.22:967][884]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-14.52.23:000][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.52.23:000][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-14.52.23:000][884]PIE: New page: PIE session: LD (14 juin 2019 06:52:23)
+[2019.06.14-14.52.23:000][884]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.14-14.52.23:054][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053626s)
+[2019.06.14-14.52.23:055][884]LogAIModule: Creating AISystem for world LD
+[2019.06.14-14.52.23:055][884]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2019.06.14-14.52.23:055][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.054761s)
+[2019.06.14-14.52.23:075][884]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-14.52.23:084][884]LogInit: FAudioDevice initialized.
+[2019.06.14-14.52.23:118][884]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-14.52.23:130][884]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 60) at 2019.06.14-10.52.23
+[2019.06.14-14.52.37:690][884]LogWorld: Bringing up level for play took: 14.569984
+[2019.06.14-14.52.37:696][884]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.52.37:697][884]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.52.37:697][884]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 13,89
+[2019.06.14-14.52.37:697][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.52.47:365][453]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-14.52.49:238][564]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-14.52.53:994][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.52.54:030][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.52.59:336][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.53.11:286][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.53.11:356][789]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-14.53.11:395][789]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.53.11:396][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-14.53.11:396][789]PIE: New page: PIE session: LD (14 juin 2019 06:53:11)
+[2019.06.14-14.53.11:396][789]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.14-14.53.11:444][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047621s)
+[2019.06.14-14.53.11:444][789]LogAIModule: Creating AISystem for world LD
+[2019.06.14-14.53.11:444][789]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2019.06.14-14.53.11:444][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.048552s)
+[2019.06.14-14.53.11:461][789]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-14.53.11:469][789]LogInit: FAudioDevice initialized.
+[2019.06.14-14.53.11:499][789]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-14.53.11:510][789]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 60) at 2019.06.14-10.53.11
+[2019.06.14-14.53.25:983][789]LogWorld: Bringing up level for play took: 14.483922
+[2019.06.14-14.53.26:033][789]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.53.26:034][789]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.53.26:034][789]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 14,227
+[2019.06.14-14.53.26:034][789]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.53.28:994][959]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.53.29:035][959]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.53.31:402][ 97]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Jellyfish)
+[2019.06.14-14.53.33:230][197]Cmd: DELETE
+[2019.06.14-14.53.33:230][197]Cmd: ACTOR DELETE
+[2019.06.14-14.53.33:246][197]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.14-14.53.33:262][197]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.06.14-14.53.36:579][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.53.37:768][441]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039e45b6700, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.14-14.53.37:774][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039e45b6700, Size=160
+[2019.06.14-14.53.37:774][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a2804bf60, Size=160, Default__Demonstration_C Function /Engine/Transient.REINST_Demonstration_C_46:ExecuteUbergraph_Demonstration
+[2019.06.14-14.53.37:777][441]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039cee24400, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.14-14.53.38:272][441]LogAIModule: Creating AISystem for world Demonstration
+[2019.06.14-14.53.38:351][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a2804bf60, Size=160
+[2019.06.14-14.53.42:217][441]LogSlate: Window 'Save Content' being destroyed
+[2019.06.14-14.53.42:358][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a1f0756c0, Size=160
+[2019.06.14-14.53.42:359][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a28016340, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_50:ExecuteUbergraph_LD
+[2019.06.14-14.53.42:362][441]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a22e8cd60, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.53.43:132][441]LogSavePackage: Save=789.98ms
+[2019.06.14-14.53.43:132][441]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD6FCCBE2549D4DCA8C7EA8CABC22DF020.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.14-14.53.43:136][441]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.14-14.53.43:170][441]LogFileHelpers: Saving map 'LD' took 0.948
+[2019.06.14-14.53.43:171][441]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/Demonstration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-14.53.43:171][441]LightingResults: New page: Lighting Build
+[2019.06.14-14.53.43:172][441]LoadErrors: New page: Loading map: Demonstration.umap
+[2019.06.14-14.53.43:177][441]MapCheck: New page: Map Check
+[2019.06.14-14.53.43:177][441]LightingResults: New page: Lighting Build
+[2019.06.14-14.53.43:196][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a22e8cd60, Size=160
+[2019.06.14-14.53.43:196][441]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a28016340, Size=160
+[2019.06.14-14.53.57:799][441]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-14.53.57:850][441]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-14.53.57:937][441]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86,783ms to complete.
+[2019.06.14-14.53.57:937][441]LogFileHelpers: Loading map 'Demonstration' took 14.766
+[2019.06.14-14.54.20:712][372]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_10)
+[2019.06.14-14.54.25:048][512]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_10)
+[2019.06.14-14.54.29:100][647]Cmd: EDIT COPY
+[2019.06.14-14.54.31:855][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.54.32:092][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a1d5f7c40, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.54.32:098][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a1d5f7c40, Size=160
+[2019.06.14-14.54.32:098][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a1b1cad40, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_52:ExecuteUbergraph_LD
+[2019.06.14-14.54.32:102][746]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d4e28400, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-14.54.32:720][746]LogAIModule: Creating AISystem for world LD
+[2019.06.14-14.54.32:801][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a1b1cad40, Size=160
+[2019.06.14-14.54.32:804][746]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.14-14.54.32:804][746]LightingResults: New page: Lighting Build
+[2019.06.14-14.54.32:805][746]LoadErrors: New page: Loading map: LD.umap
+[2019.06.14-14.54.32:812][746]MapCheck: New page: Map Check
+[2019.06.14-14.54.32:812][746]LightingResults: New page: Lighting Build
+[2019.06.14-14.54.32:831][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039cee24400, Size=160
+[2019.06.14-14.54.48:366][746]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.14-14.54.48:419][746]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.14-14.54.48:508][746]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88,075ms to complete.
+[2019.06.14-14.54.48:508][746]LogFileHelpers: Loading map 'LD' took 15.705
+[2019.06.14-14.54.51:365][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.54.54:361][ 81]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.54.55:357][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.54.55:771][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.54.58:717][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (37)
+[2019.06.14-14.55.00:597][428]Cmd: EDIT PASTE
+[2019.06.14-14.56.14:609][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (63)
+[2019.06.14-14.56.31:035][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-14.56.48:045][710]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_12)
+[2019.06.14-14.56.54:256][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.56.54:322][  2]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-14.56.54:361][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.56.54:361][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-14.56.54:361][  2]PIE: New page: PIE session: LD (14 juin 2019 06:56:54)
+[2019.06.14-14.56.54:362][  2]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.14-14.56.54:415][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053166s)
+[2019.06.14-14.56.54:415][  2]LogAIModule: Creating AISystem for world LD
+[2019.06.14-14.56.54:416][  2]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2019.06.14-14.56.54:416][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.054356s)
+[2019.06.14-14.56.54:458][  2]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-14.56.54:467][  2]LogInit: FAudioDevice initialized.
+[2019.06.14-14.56.54:501][  2]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-14.56.54:516][  2]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 60) at 2019.06.14-10.56.54
+[2019.06.14-14.57.09:623][  2]LogWorld: Bringing up level for play took: 15.120611
+[2019.06.14-14.57.09:630][  2]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.57.09:631][  2]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.57.09:631][  2]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 15,824
+[2019.06.14-14.57.09:631][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.57.17:449][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.57.17:486][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.57.24:949][892]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (40)
+[2019.06.14-14.57.25:023][892]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-14.57.25:978][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (63)
+[2019.06.14-14.57.39:626][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-14.57.39:726][660]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-14.57.39:756][660]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.57.39:756][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-14.57.39:756][660]PIE: New page: PIE session: LD (14 juin 2019 06:57:39)
+[2019.06.14-14.57.39:756][660]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.14-14.57.39:815][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058915s)
+[2019.06.14-14.57.39:816][660]LogAIModule: Creating AISystem for world LD
+[2019.06.14-14.57.39:816][660]LogPlayLevel: PIE: World Init took: (0.001114s)
+[2019.06.14-14.57.39:816][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.060275s)
+[2019.06.14-14.57.39:837][660]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-14.57.39:847][660]LogInit: FAudioDevice initialized.
+[2019.06.14-14.57.39:883][660]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-14.57.39:895][660]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 60) at 2019.06.14-10.57.39
+[2019.06.14-14.57.55:009][660]LogWorld: Bringing up level for play took: 15.124526
+[2019.06.14-14.57.55:015][660]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.57.55:016][660]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-14.57.55:016][660]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 15,209
+[2019.06.14-14.57.55:016][660]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.58.01:800][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.58.01:837][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-14.58.04:486][214]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_12)
+[2019.06.14-15.00.05:087][  0]Cmd: EDIT COPY
+[2019.06.14-15.00.05:766][ 37]Cmd: EDIT PASTE
+[2019.06.14-15.00.12:413][406]Cmd: EDIT COPY
+[2019.06.14-15.00.12:864][432]Cmd: EDIT PASTE
+[2019.06.14-15.00.27:855][151]Cmd: EDIT COPY
+[2019.06.14-15.00.28:253][172]Cmd: EDIT PASTE
+[2019.06.14-15.00.37:665][687]Cmd: EDIT COPY
+[2019.06.14-15.00.38:319][723]Cmd: EDIT PASTE
+[2019.06.14-15.00.40:220][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.00.49:615][323]Cmd: EDIT COPY
+[2019.06.14-15.00.50:114][351]Cmd: EDIT PASTE
+[2019.06.14-15.01.03:840][ 58]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_15)
+[2019.06.14-15.01.05:318][129]Cmd: EDIT COPY
+[2019.06.14-15.01.05:778][151]Cmd: EDIT PASTE
+[2019.06.14-15.01.24:550][ 33]Cmd: EDIT COPY
+[2019.06.14-15.01.25:269][ 67]Cmd: EDIT PASTE
+[2019.06.14-15.01.31:576][363]Cmd: EDIT COPY
+[2019.06.14-15.01.32:030][383]Cmd: EDIT PASTE
+[2019.06.14-15.01.40:698][784]Cmd: EDIT COPY
+[2019.06.14-15.01.41:116][802]Cmd: EDIT PASTE
+[2019.06.14-15.02.04:890][836]Cmd: EDIT COPY
+[2019.06.14-15.02.05:421][854]Cmd: EDIT PASTE
+[2019.06.14-15.02.32:322][ 89]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (58)
+[2019.06.14-15.03.38:794][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (47)
+[2019.06.14-15.03.40:031][535]Cmd: EDIT COPY
+[2019.06.14-15.04.15:472][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.04.16:300][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.04.16:817][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.04.17:223][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.04.17:305][196]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.04.22:916][472]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_22)
+[2019.06.14-15.04.24:115][524]Cmd: EDIT COPY
+[2019.06.14-15.04.24:896][559]Cmd: EDIT PASTE
+[2019.06.14-15.04.32:297][876]Cmd: EDIT COPY
+[2019.06.14-15.04.33:284][919]Cmd: EDIT PASTE
+[2019.06.14-15.04.37:408][ 94]Cmd: EDIT PASTE
+[2019.06.14-15.04.44:310][403]Cmd: EDIT PASTE
+[2019.06.14-15.04.54:927][936]Cmd: EDIT PASTE
+[2019.06.14-15.05.04:390][409]Cmd: EDIT PASTE
+[2019.06.14-15.05.13:091][830]Cmd: EDIT PASTE
+[2019.06.14-15.05.22:477][244]Cmd: EDIT COPY
+[2019.06.14-15.05.22:851][260]Cmd: EDIT PASTE
+[2019.06.14-15.05.37:869][919]Cmd: EDIT COPY
+[2019.06.14-15.05.40:184][ 24]Cmd: EDIT PASTE
+[2019.06.14-15.05.46:465][313]Cmd: EDIT COPY
+[2019.06.14-15.05.46:699][325]Cmd: EDIT PASTE
+[2019.06.14-15.05.50:273][494]Cmd: EDIT COPY
+[2019.06.14-15.05.50:644][511]Cmd: EDIT PASTE
+[2019.06.14-15.05.53:722][658]Cmd: EDIT COPY
+[2019.06.14-15.05.54:120][677]Cmd: EDIT PASTE
+[2019.06.14-15.05.59:043][914]Cmd: EDIT COPY
+[2019.06.14-15.05.59:441][933]Cmd: EDIT PASTE
+[2019.06.14-15.06.04:689][191]Cmd: EDIT COPY
+[2019.06.14-15.06.05:017][207]Cmd: EDIT PASTE
+[2019.06.14-15.06.10:886][511]Cmd: EDIT COPY
+[2019.06.14-15.06.11:296][535]Cmd: EDIT PASTE
+[2019.06.14-15.06.27:312][336]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_30)
+[2019.06.14-15.06.28:188][378]Cmd: EDIT COPY
+[2019.06.14-15.06.28:755][406]Cmd: EDIT PASTE
+[2019.06.14-15.06.41:498][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.06.41:574][990]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-15.06.41:609][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.06.41:609][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-15.06.41:609][990]PIE: New page: PIE session: LD (14 juin 2019 07:06:41)
+[2019.06.14-15.06.41:609][990]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.14-15.06.41:675][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066139s)
+[2019.06.14-15.06.41:676][990]LogAIModule: Creating AISystem for world LD
+[2019.06.14-15.06.41:677][990]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2019.06.14-15.06.41:677][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.067584s)
+[2019.06.14-15.06.41:772][990]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-15.06.41:781][990]LogInit: FAudioDevice initialized.
+[2019.06.14-15.06.41:816][990]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-15.06.41:829][990]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 60) at 2019.06.14-11.06.41
+[2019.06.14-15.06.56:734][990]LogWorld: Bringing up level for play took: 14.917718
+[2019.06.14-15.06.56:741][990]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-15.06.56:741][990]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-15.06.56:742][990]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 14,935
+[2019.06.14-15.06.56:742][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.07.10:171][722]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.07.10:215][722]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.07.35:482][  3]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d4e28400, Size=160
+[2019.06.14-15.07.35:482][  3]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a2d7c85e0, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_56:ExecuteUbergraph_LD
+[2019.06.14-15.07.35:487][  3]LogUObjectGlobals: Created PersistentFrame Addr=0x00000039d4e2a0c0, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-15.07.36:583][  3]LogSavePackage: Save=1121.61ms
+[2019.06.14-15.07.36:583][  3]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD_Auto160AB363742EC44D810F9D3AB6B65629B.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto1.umap'
+[2019.06.14-15.07.36:586][  3]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto1.umap
+[2019.06.14-15.07.36:590][  3]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OceanEnvironmentPack/Levels/LD' took 1.171
+[2019.06.14-15.07.36:590][  3]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.171
+[2019.06.14-15.07.53:500][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.07.53:628][866]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a2d7c85e0, Size=160
+[2019.06.14-15.07.53:657][866]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000039d4e2a0c0, Size=160
+[2019.06.14-15.07.53:658][866]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a2dff25c0, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_60:ExecuteUbergraph_LD
+[2019.06.14-15.07.53:663][866]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a2dff2660, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-15.07.54:841][866]LogSavePackage: Save=1206.79ms
+[2019.06.14-15.07.54:841][866]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD1B36F18A4E0DDBDD8CC673B234B54A42.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.14-15.07.54:846][866]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.14-15.08.02:505][166]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-15.08.03:406][194]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-15.08.03:954][212]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Bubbles11)
+[2019.06.14-15.08.04:161][213]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Bubbles11)
+[2019.06.14-15.08.20:415][882]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Bubbles11)
+[2019.06.14-15.08.39:430][929]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-15.08.39:865][946]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem5)
+[2019.06.14-15.08.59:141][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (23)
+[2019.06.14-15.09.00:644][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (24)
+[2019.06.14-15.09.01:315][771]LogEditorViewport: Clicking Background
+[2019.06.14-15.09.01:727][786]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_BlueTang_A)
+[2019.06.14-15.09.06:574][974]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem10)
+[2019.06.14-15.09.16:465][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh)
+[2019.06.14-15.09.17:638][485]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-15.09.17:760][486]LogEditorViewport: Clicking on Actor (double click): Emitter (Particle_BlueTang_A)
+[2019.06.14-15.09.30:068][108]Cmd: TRANSACTION UNDO
+[2019.06.14-15.09.30:068][108]LogEditorTransaction: Undo Move Actors
+[2019.06.14-15.09.47:259][681]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem)
+[2019.06.14-15.10.13:349][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.10.14:263][800]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 116 classes and 0 folders.
+[2019.06.14-15.10.14:722][800]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a23b22958, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.06.14-15.10.14:722][800]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a23b22950, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.06.14-15.10.16:002][800]LogSlate: Took 0.017038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.14-15.10.16:312][801]LogSlate: Took 0.025465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.14-15.10.25:934][244]LogSlate: Window 'BP_OceanSplineSystem' being destroyed
+[2019.06.14-15.10.25:937][244]LogSlate: Window 'BP_OceanSplineSystem' being destroyed
+[2019.06.14-15.10.43:868][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.11.18:683][972]LogEditorViewport: Clicking Background
+[2019.06.14-15.11.19:962][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem)
+[2019.06.14-15.11.21:161][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.17.39:571][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-15.17.44:978][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-15.18.55:379][666]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a2dff25c0, Size=160
+[2019.06.14-15.18.55:458][666]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a2dff2660, Size=160
+[2019.06.14-15.18.55:458][666]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a37291300, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_76:ExecuteUbergraph_LD
+[2019.06.14-15.18.55:462][666]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a37291080, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-15.18.56:351][666]LogSavePackage: Save=909.06ms
+[2019.06.14-15.18.56:351][666]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD_Auto26B7E0FA24CF344729763FAA35DFB7A4F.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto2.umap'
+[2019.06.14-15.18.56:352][666]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto2.umap
+[2019.06.14-15.18.56:357][666]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OceanEnvironmentPack/Levels/LD' took 1.011
+[2019.06.14-15.18.56:357][666]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.011
+[2019.06.14-15.19.10:432][709]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Medaka_A)
+[2019.06.14-15.19.13:378][851]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem)
+[2019.06.14-15.19.39:567][395]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem2)
+[2019.06.14-15.19.46:962][756]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem3)
+[2019.06.14-15.19.56:452][236]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem5)
+[2019.06.14-15.20.04:499][637]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem)
+[2019.06.14-15.20.53:937][992]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem2)
+[2019.06.14-15.21.00:513][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.21.04:799][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.21.53:597][198]LogEditorViewport: Clicking Background
+[2019.06.14-15.21.53:713][202]LogEditorViewport: Clicking Background
+[2019.06.14-15.22.30:910][772]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_BlueTang_A)
+[2019.06.14-15.22.35:197][969]Cmd: EDIT COPY
+[2019.06.14-15.22.41:166][267]Cmd: EDIT PASTE
+[2019.06.14-15.22.49:622][267]LogEditorViewport: Clicking Background
+[2019.06.14-15.22.55:840][615]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_BlueTang_A2)
+[2019.06.14-15.23.21:469][961]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.23.29:972][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.23.36:687][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.23.40:427][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.23.53:371][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.24.14:150][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.24.20:914][117]LogEditorViewport: Clicking Background
+[2019.06.14-15.24.21:925][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh)
+[2019.06.14-15.24.22:087][158]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.24.23:414][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (19)
+[2019.06.14-15.24.24:944][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (17)
+[2019.06.14-15.24.25:104][260]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.24.27:339][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.14-15.24.27:470][360]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.24.28:691][422]LogEditorViewport: Clicking Background
+[2019.06.14-15.24.28:776][423]LogEditorViewport: Clicking on Actor (double click): Emitter (Particle_Medaka_A)
+[2019.06.14-15.24.31:171][530]Cmd: EDIT COPY
+[2019.06.14-15.24.32:015][568]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem6)
+[2019.06.14-15.24.39:476][895]Cmd: EDIT COPY
+[2019.06.14-15.24.40:423][946]Cmd: EDIT PASTE
+[2019.06.14-15.24.43:765][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.24.47:462][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.25.07:110][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.25.17:947][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh4)
+[2019.06.14-15.25.19:185][985]Cmd: EDIT COPY
+[2019.06.14-15.25.19:688][ 13]Cmd: EDIT PASTE
+[2019.06.14-15.25.21:859][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.25.29:051][507]Cmd: EDIT COPY
+[2019.06.14-15.25.29:780][547]Cmd: EDIT PASTE
+[2019.06.14-15.25.39:022][ 31]LogEditorViewport: Clicking Background
+[2019.06.14-15.28.57:052][510]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a37291300, Size=160
+[2019.06.14-15.28.57:093][510]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a37291080, Size=160
+[2019.06.14-15.28.57:093][510]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a3a666160, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_80:ExecuteUbergraph_LD
+[2019.06.14-15.28.57:096][510]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a3a6671a0, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-15.28.57:998][510]LogSavePackage: Save=922.01ms
+[2019.06.14-15.28.57:998][510]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD_Auto3D2C843034187913A0DBB7AB60DFD74DC.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto3.umap'
+[2019.06.14-15.28.58:000][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto3.umap
+[2019.06.14-15.28.58:004][510]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OceanEnvironmentPack/Levels/LD' took 0.980
+[2019.06.14-15.28.58:004][510]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.980
+[2019.06.14-15.29.38:333][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.14-15.29.40:613][242]LogEditorViewport: Clicking Background
+[2019.06.14-15.29.41:004][263]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Medaka_A)
+[2019.06.14-15.29.41:100][264]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (ParticleSystemComponent0)
+[2019.06.14-15.29.42:388][338]Cmd: EDIT COPY
+[2019.06.14-15.29.43:252][385]Cmd: EDIT PASTE
+[2019.06.14-15.30.17:673][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.30.22:620][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.30.38:584][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.30.53:027][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.31.02:052][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_A30)
+[2019.06.14-15.31.03:226][380]Cmd: DELETE
+[2019.06.14-15.31.03:226][380]Cmd: ACTOR DELETE
+[2019.06.14-15.31.03:250][380]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.14-15.31.03:275][380]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2019.06.14-15.31.04:719][464]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_BlueTang_DeepSea)
+[2019.06.14-15.31.09:574][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.31.16:591][ 80]LogEditorActor: Deleted Actor: Emitter
+[2019.06.14-15.31.16:616][ 80]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.06.14-15.31.20:494][279]Cmd: DELETE
+[2019.06.14-15.31.20:494][279]Cmd: ACTOR DELETE
+[2019.06.14-15.31.20:517][279]LogEditorActor: Deleted Actor: Emitter
+[2019.06.14-15.31.20:544][279]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2019.06.14-15.31.25:514][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (18)
+[2019.06.14-15.31.28:105][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.31.38:326][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_A_Sandy_1)
+[2019.06.14-15.31.42:621][303]Cmd: DELETE
+[2019.06.14-15.31.42:621][303]Cmd: ACTOR DELETE
+[2019.06.14-15.31.42:642][303]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.14-15.31.42:666][303]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.06.14-15.31.48:052][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_C5)
+[2019.06.14-15.31.55:060][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.32.10:960][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.32.24:443][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_A_Sandy_2)
+[2019.06.14-15.32.28:377][273]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Kelp_SkeletalMesh)
+[2019.06.14-15.32.33:289][428]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight25)
+[2019.06.14-15.32.41:811][751]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-15.32.45:035][857]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Kelp_SkeletalMesh5)
+[2019.06.14-15.32.52:541][118]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Kelp_SkeletalMesh)
+[2019.06.14-15.33.01:247][440]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight25)
+[2019.06.14-15.33.12:606][938]Cmd: EDIT COPY
+[2019.06.14-15.33.13:676][974]Cmd: EDIT PASTE
+[2019.06.14-15.33.19:074][149]Cmd: TRANSACTION UNDO
+[2019.06.14-15.33.19:075][149]LogEditorTransaction: Undo Move Actors
+[2019.06.14-15.33.43:631][336]Cmd: TRANSACTION UNDO
+[2019.06.14-15.33.43:631][336]LogEditorTransaction: Undo Move Actors
+[2019.06.14-15.34.03:505][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.34.03:571][356]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-15.34.03:602][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.34.03:602][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-15.34.03:602][356]PIE: New page: PIE session: LD (14 juin 2019 07:34:03)
+[2019.06.14-15.34.03:602][356]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.14-15.34.03:697][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095099s)
+[2019.06.14-15.34.03:698][356]LogAIModule: Creating AISystem for world LD
+[2019.06.14-15.34.03:699][356]LogPlayLevel: PIE: World Init took: (0.001243s)
+[2019.06.14-15.34.03:699][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.096609s)
+[2019.06.14-15.34.03:733][356]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-15.34.03:743][356]LogInit: FAudioDevice initialized.
+[2019.06.14-15.34.03:778][356]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-15.34.03:793][356]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 60) at 2019.06.14-11.34.03
+[2019.06.14-15.34.18:100][356]LogWorld: Bringing up level for play took: 14.321152
+[2019.06.14-15.34.18:109][356]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-15.34.18:109][356]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-15.34.18:110][356]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 14,303
+[2019.06.14-15.34.18:110][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.34.26:765][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.34.26:808][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.34.29:677][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh7)
+[2019.06.14-15.34.30:244][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh7)
+[2019.06.14-15.34.30:841][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh7)
+[2019.06.14-15.34.31:293][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh7)
+[2019.06.14-15.34.31:387][ 94]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.34.36:312][365]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight39)
+[2019.06.14-15.35.06:179][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (11)
+[2019.06.14-15.35.08:188][896]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-15.35.10:836][ 47]Cmd: EDIT COPY
+[2019.06.14-15.35.11:203][ 67]Cmd: EDIT PASTE
+[2019.06.14-15.35.14:171][231]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2019.06.14-15.35.14:839][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_A5)
+[2019.06.14-15.35.25:431][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh8)
+[2019.06.14-15.35.29:333][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.35.29:491][875]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a3a6671a0, Size=160
+[2019.06.14-15.35.29:491][875]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a2de3f2e0, Size=160, LD_C_0 Function /Engine/Transient.REINST_LD_C_84:ExecuteUbergraph_LD
+[2019.06.14-15.35.29:496][875]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a3752d940, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-15.35.30:696][875]LogSavePackage: Save=1227.14ms
+[2019.06.14-15.35.30:696][875]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LDF291572A405BCB36FAFDEAAEB5A7081B.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.14-15.35.30:701][875]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.14-15.40.58:970][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (18)
+[2019.06.14-15.41.00:334][974]Cmd: EDIT COPY
+[2019.06.14-15.41.00:805][999]Cmd: EDIT PASTE
+[2019.06.14-15.41.04:300][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.41.12:925][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.41.24:119][198]Cmd: EDIT COPY
+[2019.06.14-15.41.24:513][220]Cmd: EDIT PASTE
+[2019.06.14-15.41.27:930][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.41.30:940][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.41.41:766][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh)
+[2019.06.14-15.41.42:806][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh)
+[2019.06.14-15.41.43:210][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.41.44:686][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (100)
+[2019.06.14-15.41.53:314][845]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-15.41.58:371][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (25)
+[2019.06.14-15.42.07:038][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.42.25:434][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.42.25:523][530]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a2de3f2e0, Size=160
+[2019.06.14-15.42.25:523][530]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a3a666160, Size=160
+[2019.06.14-15.42.25:567][530]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a3752d940, Size=160
+[2019.06.14-15.42.25:567][530]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a37291ee0, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_88:ExecuteUbergraph_LD
+[2019.06.14-15.42.25:571][530]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a3a666a20, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-15.42.26:702][530]LogSavePackage: Save=1156.90ms
+[2019.06.14-15.42.26:702][530]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD84C1B5C642164A4ACC31E2B70DC097D9.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.14-15.42.26:707][530]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.14-15.42.40:736][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.42.43:433][418]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_3)
+[2019.06.14-15.42.45:000][503]Cmd: DELETE
+[2019.06.14-15.42.45:000][503]Cmd: ACTOR DELETE
+[2019.06.14-15.42.45:022][503]LogEditorActor: Deleted Actor: BP_OceanSplineSystem_C
+[2019.06.14-15.42.45:047][503]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a37291ee0, Size=160
+[2019.06.14-15.42.45:048][503]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2019.06.14-15.42.45:702][541]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_2)
+[2019.06.14-15.42.46:269][570]Cmd: DELETE
+[2019.06.14-15.42.46:269][570]Cmd: ACTOR DELETE
+[2019.06.14-15.42.46:289][570]LogEditorActor: Deleted Actor: BP_OceanSplineSystem_C
+[2019.06.14-15.42.46:316][570]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2019.06.14-15.42.46:903][604]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_7)
+[2019.06.14-15.42.48:300][678]Cmd: DELETE
+[2019.06.14-15.42.48:300][678]Cmd: ACTOR DELETE
+[2019.06.14-15.42.48:319][678]LogEditorActor: Deleted Actor: BP_OceanSplineSystem_C
+[2019.06.14-15.42.48:345][678]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.06.14-15.42.48:847][707]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_9)
+[2019.06.14-15.42.51:155][814]Cmd: DELETE
+[2019.06.14-15.42.51:155][814]Cmd: ACTOR DELETE
+[2019.06.14-15.42.51:178][814]LogEditorActor: Deleted Actor: BP_OceanSplineSystem_C
+[2019.06.14-15.42.51:208][814]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2019.06.14-15.42.57:073][140]LogEditorViewport: Clicking Background
+[2019.06.14-15.42.57:483][164]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Medaka_B)
+[2019.06.14-15.42.58:106][197]Cmd: DELETE
+[2019.06.14-15.42.58:106][197]Cmd: ACTOR DELETE
+[2019.06.14-15.42.58:125][197]LogEditorActor: Deleted Actor: Emitter
+[2019.06.14-15.42.58:150][197]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.06.14-15.42.58:844][238]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight28)
+[2019.06.14-15.43.32:994][186]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (GodRay_Mesh7)
+[2019.06.14-15.43.33:080][187]Cmd: EDIT COPY
+[2019.06.14-15.43.33:597][216]Cmd: EDIT PASTE
+[2019.06.14-15.43.36:255][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SeaSponge_Group_Large_B4)
+[2019.06.14-15.43.38:245][458]Cmd: TRANSACTION UNDO
+[2019.06.14-15.43.38:245][458]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-15.43.42:930][726]Cmd: TRANSACTION UNDO
+[2019.06.14-15.43.42:930][726]LogEditorTransaction: Undo Move Actors
+[2019.06.14-15.43.43:751][770]Cmd: TRANSACTION UNDO
+[2019.06.14-15.43.43:751][770]LogEditorTransaction: Undo Paste
+[2019.06.14-15.43.44:751][826]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-15.43.45:484][864]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_BlueTang_A2)
+[2019.06.14-15.43.48:342][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SeaSponge_Group_Large_B4)
+[2019.06.14-15.43.48:811][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SeaSponge_Group_Large_B4)
+[2019.06.14-15.43.48:924][ 33]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.43.52:465][236]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-15.43.53:787][308]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight28)
+[2019.06.14-15.43.55:603][406]Cmd: EDIT COPY
+[2019.06.14-15.43.56:133][435]Cmd: TRANSACTION UNDO
+[2019.06.14-15.43.56:133][435]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-15.43.56:801][468]Cmd: TRANSACTION UNDO
+[2019.06.14-15.43.56:801][468]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-15.43.57:546][508]Cmd: TRANSACTION UNDO
+[2019.06.14-15.43.57:546][508]LogEditorTransaction: Undo Move Components
+[2019.06.14-15.43.58:465][560]Cmd: EDIT PASTE
+[2019.06.14-15.44.46:325][152]Cmd: EDIT COPY
+[2019.06.14-15.44.51:168][434]Cmd: EDIT PASTE
+[2019.06.14-15.44.57:392][787]Cmd: TRANSACTION UNDO
+[2019.06.14-15.44.57:392][787]LogEditorTransaction: Undo Move Components
+[2019.06.14-15.45.43:280][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.45.44:959][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.45.45:691][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.45.45:766][ 18]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.45.46:503][ 57]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.45.47:008][ 83]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.45.48:297][154]Cmd: TRANSACTION UNDO
+[2019.06.14-15.45.48:297][154]LogEditorTransaction: Undo Clicking on Components
+[2019.06.14-15.45.49:103][195]Cmd: TRANSACTION UNDO
+[2019.06.14-15.45.49:103][195]LogEditorTransaction: Undo Clicking on Components
+[2019.06.14-15.45.50:016][246]Cmd: TRANSACTION UNDO
+[2019.06.14-15.45.50:017][246]LogEditorTransaction: Undo Clicking on Components
+[2019.06.14-15.45.50:725][282]Cmd: TRANSACTION UNDO
+[2019.06.14-15.45.50:725][282]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-15.45.51:174][306]Cmd: TRANSACTION UNDO
+[2019.06.14-15.45.51:174][306]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-15.45.51:590][329]Cmd: TRANSACTION UNDO
+[2019.06.14-15.45.51:590][329]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.14-15.46.35:087][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh8)
+[2019.06.14-15.46.36:073][511]LogEditorViewport: Clicking Background
+[2019.06.14-15.49.11:005][710]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight33)
+[2019.06.14-15.50.08:802][902]Cmd: EDIT COPY
+[2019.06.14-15.50.09:476][938]Cmd: EDIT PASTE
+[2019.06.14-15.50.15:718][280]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coral_B2)
+[2019.06.14-15.50.18:388][417]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight33)
+[2019.06.14-15.51.00:203][482]Cmd: EDIT COPY
+[2019.06.14-15.51.02:016][586]Cmd: EDIT PASTE
+[2019.06.14-15.51.08:481][942]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.14-15.51.09:434][985]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight41)
+[2019.06.14-15.51.34:339][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.51.35:359][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.51.36:132][980]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_16)
+[2019.06.14-15.51.36:867][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.14-15.51.37:088][ 14]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.06.14-15.51.39:304][118]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight41)
+[2019.06.14-15.51.56:686][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.51.56:758][946]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-15.51.56:793][946]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.51.56:793][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-15.51.56:794][946]PIE: New page: PIE session: LD (14 juin 2019 07:51:56)
+[2019.06.14-15.51.56:794][946]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.14-15.51.56:880][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086273s)
+[2019.06.14-15.51.56:881][946]LogAIModule: Creating AISystem for world LD
+[2019.06.14-15.51.56:881][946]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2019.06.14-15.51.56:881][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.087592s)
+[2019.06.14-15.51.56:916][946]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-15.51.56:928][946]LogInit: FAudioDevice initialized.
+[2019.06.14-15.51.56:964][946]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-15.51.56:982][946]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 60) at 2019.06.14-11.51.56
+[2019.06.14-15.52.08:944][946]LogWorld: Bringing up level for play took: 11.978425
+[2019.06.14-15.52.08:951][946]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-15.52.08:952][946]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-15.52.08:952][946]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 13,145
+[2019.06.14-15.52.08:952][946]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.52.14:432][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.52.14:470][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.52.20:516][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.52.20:582][603]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.14-15.52.20:617][603]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.52.20:617][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.14-15.52.20:617][603]PIE: New page: PIE session: LD (14 juin 2019 07:52:20)
+[2019.06.14-15.52.20:617][603]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.14-15.52.20:678][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060516s)
+[2019.06.14-15.52.20:679][603]LogAIModule: Creating AISystem for world LD
+[2019.06.14-15.52.20:679][603]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2019.06.14-15.52.20:679][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.061603s)
+[2019.06.14-15.52.20:704][603]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.14-15.52.20:712][603]LogInit: FAudioDevice initialized.
+[2019.06.14-15.52.20:747][603]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.14-15.52.20:759][603]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 60) at 2019.06.14-11.52.20
+[2019.06.14-15.52.32:523][603]LogWorld: Bringing up level for play took: 11.775953
+[2019.06.14-15.52.32:531][603]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-15.52.32:531][603]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.14-15.52.32:531][603]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 12,724
+[2019.06.14-15.52.32:532][603]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.53.04:501][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.53.04:553][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.14-15.54.00:400][602]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.14-15.54.00:508][602]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a3a666a20, Size=160
+[2019.06.14-15.54.00:508][602]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a22b7b1a0, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_92:ExecuteUbergraph_LD
+[2019.06.14-15.54.00:514][602]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a22b7a160, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-15.54.01:888][602]LogSavePackage: Save=1405.34ms
+[2019.06.14-15.54.01:891][602]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD_Auto46D9A8702488B7E4F48B9C2A68582F6E2.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto4.umap'
+[2019.06.14-15.54.01:893][602]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto4.umap
+[2019.06.14-15.54.01:895][602]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OceanEnvironmentPack/Levels/LD' took 1.472
+[2019.06.14-15.54.01:895][602]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.472
+[2019.06.14-15.54.54:551][647]LogActorFactory: Actor Factory created SM_Coral_A
+[2019.06.14-15.54.56:273][731]LogActorFactory: Actor Factory created SM_Coral_A
+[2019.06.14-15.55.06:170][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.55.17:674][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.55.40:538][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.55.40:700][ 34]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a22b7a160, Size=160
+[2019.06.14-15.55.40:700][ 34]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a3a667ce0, Size=160, LD_C_1 Function /Engine/Transient.REINST_LD_C_96:ExecuteUbergraph_LD
+[2019.06.14-15.55.40:705][ 34]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a217ded40, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-15.55.41:802][ 34]LogSavePackage: Save=1123.92ms
+[2019.06.14-15.55.41:802][ 34]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LDE4F3A8524F62BCFF9EAEB6A25A75F1DB.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.14-15.55.41:806][ 34]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.14-15.59.25:030][625]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight38)
+[2019.06.14-15.59.25:881][666]Cmd: DELETE
+[2019.06.14-15.59.25:881][666]Cmd: ACTOR DELETE
+[2019.06.14-15.59.25:906][666]LogEditorActor: Deleted Actor: PointLight
+[2019.06.14-15.59.25:937][666]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a3a667ce0, Size=160
+[2019.06.14-15.59.25:937][666]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a22b7b1a0, Size=160
+[2019.06.14-15.59.25:939][666]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2019.06.14-15.59.26:542][701]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight37)
+[2019.06.14-15.59.26:703][707]Cmd: DELETE
+[2019.06.14-15.59.26:703][707]Cmd: ACTOR DELETE
+[2019.06.14-15.59.26:724][707]LogEditorActor: Deleted Actor: PointLight
+[2019.06.14-15.59.26:749][707]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.06.14-15.59.27:446][748]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight35)
+[2019.06.14-15.59.27:655][757]Cmd: DELETE
+[2019.06.14-15.59.27:655][757]Cmd: ACTOR DELETE
+[2019.06.14-15.59.27:677][757]LogEditorActor: Deleted Actor: PointLight
+[2019.06.14-15.59.27:699][757]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.06.14-15.59.28:314][793]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_06)
+[2019.06.14-15.59.28:801][818]Cmd: DELETE
+[2019.06.14-15.59.28:801][818]Cmd: ACTOR DELETE
+[2019.06.14-15.59.28:819][818]LogEditorActor: Deleted Actor: BP_OceanSplineSystem_C
+[2019.06.14-15.59.28:845][818]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.06.14-15.59.30:720][924]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_DeepSea_LeapoardShark)
+[2019.06.14-15.59.33:729][ 94]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight17)
+[2019.06.14-15.59.34:144][115]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystemGiantMedaka)
+[2019.06.14-15.59.37:872][328]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Bubbles)
+[2019.06.14-15.59.38:171][342]Cmd: DELETE
+[2019.06.14-15.59.38:171][342]Cmd: ACTOR DELETE
+[2019.06.14-15.59.38:194][342]LogEditorActor: Deleted Actor: Emitter
+[2019.06.14-15.59.38:219][342]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2019.06.14-15.59.39:441][414]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Bubbles2)
+[2019.06.14-15.59.39:654][423]Cmd: DELETE
+[2019.06.14-15.59.39:654][423]Cmd: ACTOR DELETE
+[2019.06.14-15.59.39:676][423]LogEditorActor: Deleted Actor: Emitter
+[2019.06.14-15.59.39:699][423]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2019.06.14-15.59.41:717][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.14-15.59.41:868][547]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000003a217ded40, Size=160
+[2019.06.14-15.59.41:868][547]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a37f1ad40, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_100:ExecuteUbergraph_LD
+[2019.06.14-15.59.41:872][547]LogUObjectGlobals: Created PersistentFrame Addr=0x0000003a37d83920, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.14-15.59.42:868][547]LogSavePackage: Save=1018.70ms
+[2019.06.14-15.59.42:868][547]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD8EAED1034D85EB7A4946FC97FCC81A23.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.14-15.59.42:872][547]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
