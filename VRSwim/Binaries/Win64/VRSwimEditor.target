@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-VRSwim-5171.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-VRSwim-9099.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-VRSwim-5171.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-VRSwim-9099.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-VRSwim-5171.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-VRSwim-9099.lib",
 			"Type": "ImportLibrary"
 		},
 		{

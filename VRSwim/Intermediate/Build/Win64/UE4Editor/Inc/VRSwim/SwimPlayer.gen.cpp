@@ -90,6 +90,64 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_zLeft_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_zLeft = { UE4CodeGen_Private::EPropertyClass::Float, "zLeft", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, zLeft), METADATA_PARAMS(NewProp_zLeft_MetaData, ARRAY_COUNT(NewProp_zLeft_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_yLeft_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_yLeft = { UE4CodeGen_Private::EPropertyClass::Float, "yLeft", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, yLeft), METADATA_PARAMS(NewProp_yLeft_MetaData, ARRAY_COUNT(NewProp_yLeft_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_xLeft_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_xLeft = { UE4CodeGen_Private::EPropertyClass::Float, "xLeft", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, xLeft), METADATA_PARAMS(NewProp_xLeft_MetaData, ARRAY_COUNT(NewProp_xLeft_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_zRight_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_zRight = { UE4CodeGen_Private::EPropertyClass::Float, "zRight", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, zRight), METADATA_PARAMS(NewProp_zRight_MetaData, ARRAY_COUNT(NewProp_zRight_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_yRight_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_yRight = { UE4CodeGen_Private::EPropertyClass::Float, "yRight", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, yRight), METADATA_PARAMS(NewProp_yRight_MetaData, ARRAY_COUNT(NewProp_yRight_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_xRight_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_xRight = { UE4CodeGen_Private::EPropertyClass::Float, "xRight", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, xRight), METADATA_PARAMS(NewProp_xRight_MetaData, ARRAY_COUNT(NewProp_xRight_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isGrippingLeft_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			auto NewProp_isGrippingLeft_SetBit = [](void* Obj){ ((ASwimPlayer*)Obj)->isGrippingLeft = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isGrippingLeft = { UE4CodeGen_Private::EPropertyClass::Bool, "isGrippingLeft", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000014, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ASwimPlayer), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_isGrippingLeft_SetBit)>::SetBit, METADATA_PARAMS(NewProp_isGrippingLeft_MetaData, ARRAY_COUNT(NewProp_isGrippingLeft_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isGrippingRight_MetaData[] = {
+				{ "Category", "SwimPlayer" },
+				{ "ModuleRelativePath", "SwimPlayer.h" },
+			};
+#endif
+			auto NewProp_isGrippingRight_SetBit = [](void* Obj){ ((ASwimPlayer*)Obj)->isGrippingRight = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isGrippingRight = { UE4CodeGen_Private::EPropertyClass::Bool, "isGrippingRight", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000014, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ASwimPlayer), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_isGrippingRight_SetBit)>::SetBit, METADATA_PARAMS(NewProp_isGrippingRight_MetaData, ARRAY_COUNT(NewProp_isGrippingRight_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fMaxRotationSpeed_MetaData[] = {
 				{ "Category", "SwimPlayer" },
 				{ "ModuleRelativePath", "SwimPlayer.h" },
@@ -156,6 +214,14 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 #endif
 			static const UE4CodeGen_Private::FClassPropertyParams NewProp_controllerBP = { UE4CodeGen_Private::EPropertyClass::Class, "controllerBP", RF_Public|RF_Transient|RF_MarkAsNative, 0x0014000000000001, 1, nullptr, STRUCT_OFFSET(ASwimPlayer, controllerBP), Z_Construct_UClass_AControllerHand_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_controllerBP_MetaData, ARRAY_COUNT(NewProp_controllerBP_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_zLeft,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_yLeft,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_xLeft,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_zRight,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_yRight,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_xRight,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_isGrippingLeft,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_isGrippingRight,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fMaxRotationSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fRotationDecrease,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fRotationSpeed,
@@ -184,7 +250,7 @@ void EmptyLinkFunctionForGeneratedCodeSwimPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASwimPlayer, 1609176437);
+	IMPLEMENT_CLASS(ASwimPlayer, 2023777322);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASwimPlayer(Z_Construct_UClass_ASwimPlayer, &ASwimPlayer::StaticClass, TEXT("/Script/VRSwim"), TEXT("ASwimPlayer"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASwimPlayer);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
