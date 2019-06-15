@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 06/15/19 13:42:16
+=======
+﻿Log file open, 06/15/19 13:09:54
+>>>>>>> master
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +11,20 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRSwim
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(1051045514) SRandInit(1051045514).
+=======
+LogInit: Display: RandInit(-87240670) SRandInit(-87240670).
+>>>>>>> master
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.394027
+=======
+LogStats: Stats thread started at 0.275534
+>>>>>>> master
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +96,13 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.192s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file D:/UnrealProjects/NageVR/VRSwim/Binaries/Win64/UE4Editor-VRSwim.dll (API version 3944462).
+=======
+LogStreaming: Display: Took  0.076s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Binaries/Win64/UE4Editor-VRSwim.dll (API version 3944462).
+>>>>>>> master
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -220,6 +237,7 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.040s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
@@ -4023,3 +4041,823 @@ LogInit: Object subsystem initialized
 [2019.06.15-17.48.51:503][996]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2019.06.15-17.48.51:515][996]LogExit: Exiting.
 [2019.06.15-17.48.51:533][996]Log file closed, 06/15/19 13:48:51
+=======
+LogStreaming: Display: Took  0.016s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.06.15-17.09.56:383][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.15-17.09.56:383][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.15-17.09.56:395][  0]LogInit: Computer: GAUTIER
+[2019.06.15-17.09.56:395][  0]LogInit: User: Gautier
+[2019.06.15-17.09.56:395][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.06.15-17.09.56:395][  0]LogInit: High frequency timer resolution =2.435779 MHz
+[2019.06.15-17.09.56:396][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.06.15-17.09.56:396][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.15-17.09.56:396][  0]LogMemory: Process Physical Memory: 273.17 MB used, 273.17 MB peak
+[2019.06.15-17.09.56:396][  0]LogMemory: Process Virtual Memory: 264.67 MB used, 264.67 MB peak
+[2019.06.15-17.09.56:396][  0]LogMemory: Physical Memory: 3833.42 MB used,  4241.61 MB free, 8075.02 MB total
+[2019.06.15-17.09.56:396][  0]LogMemory: Virtual Memory: 640.14 MB used,  4241.61 MB free, 134217728.00 MB total
+[2019.06.15-17.09.56:415][  0]LogInit: Using OS detected language (fr-FR).
+[2019.06.15-17.09.56:415][  0]LogInit: Using OS detected locale (fr-FR).
+[2019.06.15-17.09.56:417][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2019.06.15-17.09.56:864][  0]LogStreaming: Display: Took  0.450s to EndInitTextLocalization.
+[2019.06.15-17.09.56:865][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.15-17.09.56:901][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.15-17.09.56:901][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.15-17.09.57:071][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.15-17.09.57:123][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 850M' (Feature Level 11_0)
+[2019.06.15-17.09.57:123][  0]LogD3D11RHI:       4011/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.15-17.09.57:128][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2019.06.15-17.09.57:128][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.06.15-17.09.57:129][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.15-17.09.57:129][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.15-17.09.57:129][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.15-17.09.57:133][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.15-17.09.57:133][  0]LogD3D11RHI:     GPU DeviceId: 0x1391 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.15-17.09.57:133][  0]LogWindows: EnumDisplayDevices:
+[2019.06.15-17.09.57:133][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2019.06.15-17.09.57:133][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.06.15-17.09.57:133][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2019.06.15-17.09.57:133][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.06.15-17.09.57:133][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 850M
+[2019.06.15-17.09.57:133][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.06.15-17.09.57:133][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.06.15-17.09.57:133][  0]LogRHI: Texture pool is 2808 MB (70% of 4011 MB)
+[2019.06.15-17.09.57:156][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.06.15-17.09.57:156][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.06.15-17.09.57:156][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.15-17.09.57:175][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.06.15-17.09.57:175][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Intermediate/Shaders/WorkingDirectory/4832/).
+[2019.06.15-17.09.57:176][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gautier/AppData/Local/Temp/UnrealShaderWorkingDir/B05F2B54432C1259752F9FAEF2A7C630/'.
+[2019.06.15-17.09.57:347][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.15-17.09.57:363][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.15-17.09.57:377][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.15-17.09.57:391][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.15-17.09.57:405][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.15-17.09.57:418][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.15-17.09.57:432][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.15-17.09.57:448][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.15-17.09.57:455][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.15-17.09.57:467][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.06.15-17.09.57:480][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.06.15-17.09.57:496][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.06.15-17.09.57:509][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.06.15-17.09.57:521][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.06.15-17.09.57:534][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.06.15-17.09.57:559][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.06.15-17.09.57:559][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.06.15-17.09.57:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.15-17.09.57:573][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.15-17.09.57:610][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.15-17.09.57:623][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.15-17.09.57:635][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.15-17.09.57:648][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.15-17.09.57:660][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.15-17.09.57:674][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.15-17.09.57:674][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.15-17.09.57:766][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.15-17.09.57:766][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.15-17.09.57:766][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.15-17.09.58:504][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.15-17.09.58:618][  0]LogDerivedDataCache: Loaded boot cache 0.11s 88MB C:/Users/Gautier/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.06.15-17.09.58:618][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gautier/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.06.15-17.09.58:618][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.15-17.09.58:618][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.15-17.09.58:618][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.15-17.09.58:618][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.15-17.09.58:637][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.15-17.09.58:650][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gautier/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.15-17.09.58:650][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.15-17.09.58:650][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.15-17.09.58:664][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.15-17.09.58:664][  0]LogSlate: Using Freetype 2.6.0
+[2019.06.15-17.09.58:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.15-17.09.58:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.15-17.09.59:547][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2019.06.15-17.09.59:858][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.15-17.10.00:000][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.15-17.10.00:002][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.15-17.10.00:002][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.15-17.10.00:002][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.15-17.10.00:002][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.06.15-17.10.00:002][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.06.15-17.10.00:027][  0]LogNetVersion: VRSwim , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 544263640)
+[2019.06.15-17.10.00:438][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.037320 seconds
+[2019.06.15-17.10.00:444][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.06.15-17.10.00:444][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.06.15-17.10.00:444][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.15-17.10.02:006][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.15-17.10.02:030][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.15-17.10.02:327][  0]SourceControl: Source control is disabled
+[2019.06.15-17.10.02:327][  0]SourceControl: Source control is disabled
+[2019.06.15-17.10.02:340][  0]SourceControl: Source control is disabled
+[2019.06.15-17.10.02:353][  0]SourceControl: Source control is disabled
+[2019.06.15-17.10.02:729][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.15-17.10.02:853][  0]LogOcInput: OculusInput pre-init called
+[2019.06.15-17.10.02:943][  0]LogEngine: Initializing Engine...
+[2019.06.15-17.10.02:944][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.15-17.10.02:946][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.15-17.10.02:946][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.15-17.10.03:234][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.15-17.10.03:239][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-17.10.03:352][  0]LogInit: FAudioDevice initialized.
+[2019.06.15-17.10.04:153][  0]LogDerivedDataCache: Saved boot cache 0.80s 88MB C:/Users/Gautier/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.06.15-17.10.04:177][  0]LogInit: Texture streaming: Enabled
+[2019.06.15-17.10.04:193][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.15-17.10.04:203][  0]LogInit: Transaction tracking system initialized
+[2019.06.15-17.10.04:221][  0]BlueprintLog: New page: Editor Load
+[2019.06.15-17.10.04:282][  0]LocalizationService: Localization service is disabled
+[2019.06.15-17.10.04:373][  0]LogConsoleResponse: Display: 
+[2019.06.15-17.10.05:416][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.15-17.10.05:416][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.15-17.10.05:416][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.15-17.10.05:416][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.15-17.10.05:416][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.15-17.10.05:422][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/' took 0.05s
+[2019.06.15-17.10.05:690][  0]SourceControl: Source control is disabled
+[2019.06.15-17.10.05:690][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.15-17.10.05:735][  0]LightingResults: New page: Lighting Build
+[2019.06.15-17.10.05:738][  0]MapCheck: New page: Map Check
+[2019.06.15-17.10.05:738][  0]LightingResults: New page: Lighting Build
+[2019.06.15-17.10.05:749][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData'
+[2019.06.15-17.10.05:749][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData' while loading ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/VirtualRealityBP/Maps/StartupMap.umap.
+[2019.06.15-17.10.05:749][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/StartupMap : Can't find file for asset. /Game/VirtualRealityBP/Maps/StartupMap_BuiltData
+[2019.06.15-17.10.06:491][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData'
+[2019.06.15-17.10.06:491][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData' while loading ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/VirtualRealityBP/Maps/StartupMap.umap.
+[2019.06.15-17.10.06:491][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/StartupMap : Can't find file for asset. /Game/VirtualRealityBP/Maps/StartupMap_BuiltData
+[2019.06.15-17.10.06:536][  0]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData'
+[2019.06.15-17.10.06:536][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Maps/StartupMap_BuiltData.StartupMap_BuiltData Referenced by PersistentLevel
+[2019.06.15-17.10.06:536][  0]LogLinker: Warning: Can't find file for asset '/Game/VirtualRealityBP/Maps/StartupMap_BuiltData' while loading NULL.
+[2019.06.15-17.10.06:536][  0]LoadErrors: Failed to load /Game/VirtualRealityBP/Maps/StartupMap_BuiltData.StartupMap_BuiltData Referenced by PersistentLevel
+[2019.06.15-17.10.06:832][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [11.923495ms] /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.MannequinHand_Right
+[2019.06.15-17.10.06:853][  0]LogAIModule: Creating AISystem for world StartupMap
+[2019.06.15-17.10.06:918][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.15-17.10.06:988][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.15-17.10.07:032][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43,99ms to complete.
+[2019.06.15-17.10.07:032][  0]LogFileHelpers: Loading map 'StartupMap' took 1.342
+[2019.06.15-17.10.07:819][  0]LogCollectionManager: Loaded 0 collections in 0.001299 seconds
+[2019.06.15-17.10.07:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Collections/' took 0.01s
+[2019.06.15-17.10.07:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/Developers/Gautier/Collections/' took 0.01s
+[2019.06.15-17.10.07:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/Collections/' took 0.01s
+[2019.06.15-17.10.07:940][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.15-17.10.07:981][  0]LogContentBrowser: Native class hierarchy populated in 0.0399 seconds. Added 2454 classes and 560 folders.
+[2019.06.15-17.10.08:032][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.06.15-17.10.10:604][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.06.15-17.10.10:787][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.06.15-17.10.13:073][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.15-17.10.13:076][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.15-17.10.13:252][  0]LogSlate: Took 0.092361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.15-17.10.13:935][  0]LogRenderer: Reallocating scene render targets to support 964x396 Format 26 NumSamples 1 (Frame:1).
+[2019.06.15-17.10.14:463][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.06.15-17.10.14:463][  0]LogLoad: (Engine Initialization) Total time: 21.75 seconds
+[2019.06.15-17.10.14:463][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.15-17.10.14:823][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.15-17.10.14:826][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.10.15:115][  1]LogRenderer: Reallocating scene render targets to support 964x416 Format 26 NumSamples 1 (Frame:2).
+[2019.06.15-17.10.15:667][  2]LogAssetRegistry: Asset discovery search completed in 16.1419 seconds
+[2019.06.15-17.10.15:670][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.15-17.10.15:670][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2019.06.15-17.10.15:812][  3]LogSlate: Took 0.067538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.15-17.10.17:232][132]LogSlate: Window 'Message Log' being destroyed
+[2019.06.15-17.10.17:234][132]LogSlate: Window 'Message Log' being destroyed
+[2019.06.15-17.10.19:096][341]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.15-17.10.27:514][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.10.34:018][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d71993280, Size=352, Default__BP_SwimmingSpectator_C Function /Game/OceanEnvironmentPack/Blueprints/BP_SwimmingSpectator.BP_SwimmingSpectator_C:ExecuteUbergraph_BP_SwimmingSpectator
+[2019.06.15-17.10.34:039][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d71993280, Size=352
+[2019.06.15-17.10.34:039][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d5746f400, Size=352, Default__BP_SwimmingSpectator_C Function /Engine/Transient.REINST_BP_SwimmingSpectator_C_1:ExecuteUbergraph_BP_SwimmingSpectator
+[2019.06.15-17.10.34:049][ 48]LogBlueprint: Warning: [Compiler BP_SwimmingSpectator] InputAction Event references unknown Action 'Decrease_Speed' for  InputAction Decrease_Speed
+[2019.06.15-17.10.34:049][ 48]LogBlueprint: Warning: [Compiler BP_SwimmingSpectator] InputAction Event references unknown Action 'Increase_Speed' for  InputAction Increase_Speed
+[2019.06.15-17.10.34:049][ 48]LogBlueprint: Warning: [Compiler BP_SwimmingSpectator] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2019.06.15-17.10.34:049][ 48]LogBlueprint: Warning: [Compiler BP_SwimmingSpectator] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2019.06.15-17.10.34:049][ 48]LogBlueprint: Warning: [Compiler BP_SwimmingSpectator] Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp
+[2019.06.15-17.10.34:049][ 48]LogBlueprint: Warning: [Compiler BP_SwimmingSpectator] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2019.06.15-17.10.34:049][ 48]LogBlueprint: Warning: [Compiler BP_SwimmingSpectator] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2019.06.15-17.10.34:052][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d4b85c400, Size=352, Default__BP_SwimmingSpectator_C Function /Game/OceanEnvironmentPack/Blueprints/BP_SwimmingSpectator.BP_SwimmingSpectator_C:ExecuteUbergraph_BP_SwimmingSpectator
+[2019.06.15-17.10.34:067][ 48]LogBlueprint: Warning: [Compiler BP_SwimmingSpectator] [0041,35] Compile of BP_SwimmingSpectator successful, but with 7 Warning(s) [in 43 ms] (/Game/OceanEnvironmentPack/Blueprints/BP_SwimmingSpectator.BP_SwimmingSpectator)
+[2019.06.15-17.10.34:217][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d3d6d6d40, Size=176, Default__BP_Dustmotes_CameraFollow_C Function /Game/OceanEnvironmentPack/Blueprints/BP_Dustmotes_CameraFollow.BP_Dustmotes_CameraFollow_C:ExecuteUbergraph_BP_Dustmotes_CameraFollow
+[2019.06.15-17.10.34:218][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d3d6d6d40, Size=176
+[2019.06.15-17.10.34:219][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d3d6d6d40, Size=176, Default__BP_Dustmotes_CameraFollow_C Function /Engine/Transient.REINST_BP_Dustmotes_CameraFollow_C_3:ExecuteUbergraph_BP_Dustmotes_CameraFollow
+[2019.06.15-17.10.34:220][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d3d6d6500, Size=176, Default__BP_Dustmotes_CameraFollow_C Function /Game/OceanEnvironmentPack/Blueprints/BP_Dustmotes_CameraFollow.BP_Dustmotes_CameraFollow_C:ExecuteUbergraph_BP_Dustmotes_CameraFollow
+[2019.06.15-17.10.34:501][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d4b858400, Size=120, Default__BP_Dynamic_Deep_Sea_Lighting_C Function /Game/OceanEnvironmentPack/Blueprints/BP_Dynamic_Deep_Sea_Lighting.BP_Dynamic_Deep_Sea_Lighting_C:ExecuteUbergraph_BP_Dynamic_Deep_Sea_Lighting
+[2019.06.15-17.10.34:513][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d4b858400, Size=120
+[2019.06.15-17.10.34:513][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d49d93980, Size=120, Default__BP_Dynamic_Deep_Sea_Lighting_C Function /Engine/Transient.REINST_BP_Dynamic_Deep_Sea_Lighting_C_5:ExecuteUbergraph_BP_Dynamic_Deep_Sea_Lighting
+[2019.06.15-17.10.34:520][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d49d93500, Size=120, Default__BP_Dynamic_Deep_Sea_Lighting_C Function /Game/OceanEnvironmentPack/Blueprints/BP_Dynamic_Deep_Sea_Lighting.BP_Dynamic_Deep_Sea_Lighting_C:ExecuteUbergraph_BP_Dynamic_Deep_Sea_Lighting
+[2019.06.15-17.10.35:159][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d49cf3a00, Size=384, Default__BP_HierarchicalInstance_Converter_C Function /Game/OceanEnvironmentPack/Blueprints/BP_HierarchicalInstance_Converter.BP_HierarchicalInstance_Converter_C:ExecuteUbergraph_BP_HierarchicalInstance_Converter
+[2019.06.15-17.10.35:163][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d49cf3a00, Size=384
+[2019.06.15-17.10.35:163][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d49d9a800, Size=384, Default__BP_HierarchicalInstance_Converter_C Function /Engine/Transient.REINST_BP_HierarchicalInstance_Converter_C_9:ExecuteUbergraph_BP_HierarchicalInstance_Converter
+[2019.06.15-17.10.35:168][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d6381ee00, Size=384, Default__BP_HierarchicalInstance_Converter_C Function /Game/OceanEnvironmentPack/Blueprints/BP_HierarchicalInstance_Converter.BP_HierarchicalInstance_Converter_C:ExecuteUbergraph_BP_HierarchicalInstance_Converter
+[2019.06.15-17.10.36:657][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d6305a980, Size=368, Default__BP_OceanSplineSystem_C Function /Game/OceanEnvironmentPack/Blueprints/BP_OceanSplineSystem.BP_OceanSplineSystem_C:ExecuteUbergraph_BP_OceanSplineSystem
+[2019.06.15-17.10.36:668][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d6305a980, Size=368
+[2019.06.15-17.10.36:668][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d62fc2200, Size=368, Default__BP_OceanSplineSystem_C Function /Engine/Transient.REINST_BP_OceanSplineSystem_C_11:ExecuteUbergraph_BP_OceanSplineSystem
+[2019.06.15-17.10.36:681][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d44a9e680, Size=352, Default__BP_OceanSplineSystem_C Function /Game/OceanEnvironmentPack/Blueprints/BP_OceanSplineSystem.BP_OceanSplineSystem_C:ExecuteUbergraph_BP_OceanSplineSystem
+[2019.06.15-17.10.36:910][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d633ca9c8, Size=24, Default__RightHand_AnimBP_C Function /Game/VirtualReality/Mannequin/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP
+[2019.06.15-17.10.36:950][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d633ca9c8, Size=24
+[2019.06.15-17.10.36:950][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d633ca9c8, Size=24, Default__RightHand_AnimBP_C Function /Engine/Transient.REINST_RightHand_AnimBP_C_0:ExecuteUbergraph_RightHand_AnimBP
+[2019.06.15-17.10.36:962][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d633ca140, Size=24, Default__RightHand_AnimBP_C Function /Game/VirtualReality/Mannequin/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP
+[2019.06.15-17.10.36:975][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d69ce10f8, Size=56, Default__Controller_C Function /Game/SwimVR/Player/Controller.Controller_C:ExecuteUbergraph_Controller
+[2019.06.15-17.10.36:992][ 48]LogBlueprint: Warning: [Compiler Controller] Get : 'player' variable not found. Base class was probably changed. /Game/SwimVR/Player/Controller.Controller
+[2019.06.15-17.10.36:992][ 48]LogBlueprint: Warning: [Compiler Controller] Get : 'isGrippingLeft' variable not found. Base class was probably changed. /Game/SwimVR/Player/Controller.Controller
+[2019.06.15-17.10.36:992][ 48]LogBlueprint: Warning: [Compiler Controller] Get : 'player' variable not found. Base class was probably changed. /Game/SwimVR/Player/Controller.Controller
+[2019.06.15-17.10.36:993][ 48]LogBlueprint: Warning: [Compiler Controller] Get : 'isGrippingRight' variable not found. Base class was probably changed. /Game/SwimVR/Player/Controller.Controller
+[2019.06.15-17.10.36:993][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d69ce10f8, Size=56
+[2019.06.15-17.10.36:993][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d69ce10f8, Size=56, Default__Controller_C Function /Engine/Transient.REINST_Controller_C_14:ExecuteUbergraph_Controller
+[2019.06.15-17.10.36:994][ 48]LogBlueprint: Warning: [Compiler Controller] Could not find a variable named "isGrippingRight" in 'SwimPlayer'.
+Make sure 'SwimPlayer' has been compiled for  Get isGrippingRight
+[2019.06.15-17.10.36:994][ 48]LogBlueprint: Warning: [Compiler Controller] Could not find a variable named "player" in 'Controller_C'.
+Make sure 'Controller_C' has been compiled for  Get player
+[2019.06.15-17.10.36:994][ 48]LogBlueprint: Warning: [Compiler Controller] Could not find a variable named "isGrippingLeft" in 'SwimPlayer'.
+Make sure 'SwimPlayer' has been compiled for  Get isGrippingLeft
+[2019.06.15-17.10.36:994][ 48]LogBlueprint: Warning: [Compiler Controller] Could not find a variable named "player" in 'Controller_C'.
+Make sure 'Controller_C' has been compiled for  Get player
+[2019.06.15-17.10.36:995][ 48]LogBlueprint: Error: [Compiler Controller] The property associated with  Player  could not be found
+[2019.06.15-17.10.36:995][ 48]LogBlueprint: Error: [Compiler Controller] The property associated with  Is Gripping Left  could not be found
+[2019.06.15-17.10.36:995][ 48]LogBlueprint: Error: [Compiler Controller] The property associated with  Player  could not be found
+[2019.06.15-17.10.36:995][ 48]LogBlueprint: Error: [Compiler Controller] The property associated with  Is Gripping Right  could not be found
+[2019.06.15-17.10.36:995][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d69ce14b0, Size=56, Default__Controller_C Function /Game/SwimVR/Player/Controller.Controller_C:ExecuteUbergraph_Controller
+[2019.06.15-17.10.36:996][ 48]LogBlueprint: Warning: [Compiler Controller] [0044,28] Compile of Controller failed. 4 Fatal Issue(s) 8 Warning(s) [in 10 ms] (/Game/SwimVR/Player/Controller.Controller)
+[2019.06.15-17.10.37:079][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d633cae18, Size=20, Default__Player_C Function /Game/SwimVR/Player/Player.Player_C:ExecuteUbergraph_Player
+[2019.06.15-17.10.37:082][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d633cae18, Size=20
+[2019.06.15-17.10.37:082][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d633cae18, Size=20, Default__Player_C Function /Engine/Transient.REINST_Player_C_16:ExecuteUbergraph_Player
+[2019.06.15-17.10.37:084][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d633caf08, Size=20, Default__Player_C Function /Game/SwimVR/Player/Player.Player_C:ExecuteUbergraph_Player
+[2019.06.15-17.10.42:987][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d4e0380e0, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.10.42:991][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d4e0380e0, Size=160
+[2019.06.15-17.10.42:991][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d4e42ac00, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_20:ExecuteUbergraph_LD
+[2019.06.15-17.10.42:995][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d4e429800, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.10.54:045][ 48]LogSkeletalMesh: Skeletal Mesh found in DDC [46.882332ms] /Game/OceanEnvironmentPack/Meshes/Plants/Kelp/SK_Kelp.SK_Kelp
+[2019.06.15-17.10.55:581][ 48]LogAIModule: Creating AISystem for world LD
+[2019.06.15-17.10.55:822][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d5746f400, Size=352
+[2019.06.15-17.10.55:822][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d3d6d6d40, Size=176
+[2019.06.15-17.10.55:822][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d49d93980, Size=120
+[2019.06.15-17.10.55:822][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d49d9a800, Size=384
+[2019.06.15-17.10.55:822][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d62fc2200, Size=368
+[2019.06.15-17.10.55:822][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d633ca9c8, Size=24
+[2019.06.15-17.10.55:822][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d69ce10f8, Size=56
+[2019.06.15-17.10.55:822][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d633cae18, Size=20
+[2019.06.15-17.10.55:823][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d4e42ac00, Size=160
+[2019.06.15-17.10.55:831][ 48]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.15-17.10.55:831][ 48]LightingResults: New page: Lighting Build
+[2019.06.15-17.10.55:832][ 48]LoadErrors: New page: Loading map: LD.umap
+[2019.06.15-17.10.55:833][ 48]MapCheck: New page: Map Check
+[2019.06.15-17.10.55:833][ 48]LightingResults: New page: Lighting Build
+[2019.06.15-17.11.13:052][ 48]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.15-17.11.13:105][ 48]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.15-17.11.13:184][ 48]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79,094ms to complete.
+[2019.06.15-17.11.13:188][ 48]LogFileHelpers: Loading map 'LD' took 17.358
+[2019.06.15-17.14.04:520][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.14.08:005][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.14.09:645][514]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d71989e40, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.15-17.14.09:649][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d71989e40, Size=160
+[2019.06.15-17.14.09:649][514]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d71988900, Size=160, Default__Demonstration_C Function /Engine/Transient.REINST_Demonstration_C_22:ExecuteUbergraph_Demonstration
+[2019.06.15-17.14.09:652][514]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d7f17c5e0, Size=160, Default__Demonstration_C Function /Game/OceanEnvironmentPack/Levels/Demonstration.Demonstration_C:ExecuteUbergraph_Demonstration
+[2019.06.15-17.14.11:939][514]LogAIModule: Creating AISystem for world Demonstration
+[2019.06.15-17.14.12:029][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d71988900, Size=160
+[2019.06.15-17.14.12:031][514]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/Demonstration.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.15-17.14.12:031][514]LightingResults: New page: Lighting Build
+[2019.06.15-17.14.12:032][514]LoadErrors: New page: Loading map: Demonstration.umap
+[2019.06.15-17.14.12:037][514]MapCheck: New page: Map Check
+[2019.06.15-17.14.12:037][514]LightingResults: New page: Lighting Build
+[2019.06.15-17.14.12:054][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d4e429800, Size=160
+[2019.06.15-17.14.28:084][514]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.15-17.14.28:145][514]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.15-17.14.28:236][514]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90,4ms to complete.
+[2019.06.15-17.14.28:236][514]LogFileHelpers: Loading map 'Demonstration' took 16.206
+[2019.06.15-17.14.52:483][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shell_Mesh)
+[2019.06.15-17.14.54:620][721]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shell_Mesh2)
+[2019.06.15-17.14.55:883][773]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight31)
+[2019.06.15-17.15.02:336][ 48]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Anemone)
+[2019.06.15-17.15.03:281][ 82]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight8)
+[2019.06.15-17.15.08:181][260]LogHttp: Warning: 0000009D0EB09F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.15.08:182][260]LogHttp: Warning: 0000009D0EB09F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x9d7ee3ffe8 [can pipeline])
+[2019.06.15-17.15.08:182][260]LogHttp: Warning: 0000009D0EB09F00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2019.06.15-17.15.08:182][260]LogHttp: Warning: 0000009D0EB09F00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.15.08:182][260]LogHttp: Warning: 0000009D0EB09F00: libcurl info message cache 3 (Closing connection 1)
+[2019.06.15-17.15.13:734][482]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystemGiantMedaka)
+[2019.06.15-17.15.19:956][724]LogHttp: Warning: 0000009D465C8700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.15.19:956][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x9d7ee3ffe8 [can pipeline])
+[2019.06.15-17.15.19:956][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2019.06.15-17.15.19:956][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.195.131.10) port 443 (#0))
+[2019.06.15-17.15.19:956][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 3 (upload completely sent off: 710 out of 710 bytes)
+[2019.06.15-17.15.19:956][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2019.06.15-17.15.19:956][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.06.15-17.15.19:956][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 6 (Closing connection 0)
+[2019.06.15-17.15.19:956][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD20F1DA1-4379-D82F-03D9-0A978EF97F80%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=f3a6a7c9417df3f35aea1393a2c65e0a%7Cd543827b587b4bccb0c4d5b76d83ee2f%7C23901751-4fac-4c00-83b1-dda420849843&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.06.15-17.15.19:957][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.15.19:957][724]LogHttp: Warning: 0000009D465C8700: libcurl info message cache 9 (Closing connection 2)
+[2019.06.15-17.15.21:909][807]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight38)
+[2019.06.15-17.15.28:975][ 49]Cmd: EDIT COPY
+[2019.06.15-17.15.30:166][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.15.31:573][132]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d71891300, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.15.31:578][132]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d71891300, Size=160
+[2019.06.15-17.15.31:578][132]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d5db6e5c0, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_24:ExecuteUbergraph_LD
+[2019.06.15-17.15.31:582][132]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d0f106340, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.15.32:165][132]LogAIModule: Creating AISystem for world LD
+[2019.06.15-17.15.32:237][132]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d5db6e5c0, Size=160
+[2019.06.15-17.15.54:100][132]LogSlate: Window 'Save Content' being destroyed
+[2019.06.15-17.15.54:104][132]Cmd: MAP LOAD FILE="../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.15-17.15.54:105][132]LightingResults: New page: Lighting Build
+[2019.06.15-17.15.54:105][132]LoadErrors: New page: Loading map: LD.umap
+[2019.06.15-17.15.54:112][132]MapCheck: New page: Map Check
+[2019.06.15-17.15.54:112][132]LightingResults: New page: Lighting Build
+[2019.06.15-17.15.54:128][132]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d7f17c5e0, Size=160
+[2019.06.15-17.16.06:818][132]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.15-17.16.06:869][132]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.15-17.16.06:958][132]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 88,761ms to complete.
+[2019.06.15-17.16.06:963][132]LogFileHelpers: Loading map 'LD' took 12.860
+[2019.06.15-17.16.26:338][242]Cmd: EDIT PASTE
+[2019.06.15-17.16.37:537][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.16.41:712][238]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_GlowingPlankton_Rainbow2)
+[2019.06.15-17.16.42:761][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shell_Mesh)
+[2019.06.15-17.16.44:113][384]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shell_Mesh2)
+[2019.06.15-17.16.45:418][467]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight31)
+[2019.06.15-17.16.46:939][567]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Anemone)
+[2019.06.15-17.16.54:048][ 16]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight18)
+[2019.06.15-17.16.58:045][272]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight5)
+[2019.06.15-17.17.10:400][ 51]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight39)
+[2019.06.15-17.17.18:185][554]LogEditorViewport: Clicking on Actor (CTRL LMB): Emitter (P_GlowingPlankton_Rainbow2)
+[2019.06.15-17.17.19:998][666]LogHttp: Warning: 0000009D89504E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.17.19:998][666]LogHttp: Warning: 0000009D89504E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.17.19:998][666]LogHttp: Warning: 0000009D89504E80: libcurl info message cache 1 (Closing connection 3)
+[2019.06.15-17.18.22:424][  5]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight39)
+[2019.06.15-17.18.23:913][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.15-17.18.24:620][127]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight39)
+[2019.06.15-17.18.28:210][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.15-17.18.28:776][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh6)
+[2019.06.15-17.18.33:937][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.18.39:361][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.18.48:291][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.19.02:484][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shell_Mesh2)
+[2019.06.15-17.19.03:066][275]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Shell_Mesh)
+[2019.06.15-17.19.03:689][309]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Anemone)
+[2019.06.15-17.19.05:709][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.19.14:214][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.19.20:035][259]LogHttp: Warning: 0000009D63DF3A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.19.20:036][259]LogHttp: Warning: 0000009D63DF3A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.19.20:036][259]LogHttp: Warning: 0000009D63DF3A00: libcurl info message cache 1 (Closing connection 4)
+[2019.06.15-17.19.20:661][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.19.21:288][334]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.19.21:907][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shell_Mesh2)
+[2019.06.15-17.19.23:141][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.19.30:763][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.19.43:473][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.15-17.19.49:611][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shell_Mesh)
+[2019.06.15-17.19.54:682][190]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.20.01:896][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.15-17.20.05:256][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.20.14:973][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.20.17:702][474]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.20.24:049][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Anemone)
+[2019.06.15-17.20.32:436][292]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight31)
+[2019.06.15-17.20.41:224][769]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2019.06.15-17.20.50:080][239]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.20.51:626][308]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_GlowingPlankton_Rainbow2)
+[2019.06.15-17.20.58:536][654]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight18)
+[2019.06.15-17.21.03:642][922]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight39)
+[2019.06.15-17.21.20:085][753]LogHttp: Warning: 0000009D894DCB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.21.20:085][753]LogHttp: Warning: 0000009D894DCB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.21.20:085][753]LogHttp: Warning: 0000009D894DCB80: libcurl info message cache 1 (Closing connection 5)
+[2019.06.15-17.21.36:800][685]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.21.40:726][902]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_GlowingPlankton_Rainbow2)
+[2019.06.15-17.21.53:698][647]Cmd: EDIT COPY
+[2019.06.15-17.21.54:264][679]Cmd: EDIT PASTE
+[2019.06.15-17.21.58:196][878]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.06.15-17.21.58:338][878]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.21.59:567][979]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.22.02:543][152]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_GlowingPlankton_Rainbow3)
+[2019.06.15-17.22.06:046][350]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_GlowingPlankton_Rainbow2)
+[2019.06.15-17.22.06:809][391]Cmd: EDIT COPY
+[2019.06.15-17.22.07:562][433]Cmd: EDIT PASTE
+[2019.06.15-17.22.53:309][762]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Kelp_SkeletalMesh4)
+[2019.06.15-17.22.57:434][914]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.23.07:258][262]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Kelp_SkeletalMesh)
+[2019.06.15-17.23.14:516][518]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.23.18:027][645]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Kelp_SkeletalMesh5)
+[2019.06.15-17.23.20:145][727]LogHttp: Warning: 0000009D4E2BFD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.23.20:145][727]LogHttp: Warning: 0000009D4E2BFD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.23.20:145][727]LogHttp: Warning: 0000009D4E2BFD00: libcurl info message cache 1 (Closing connection 6)
+[2019.06.15-17.23.21:058][762]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Kelp_SkeletalMesh2)
+[2019.06.15-17.23.23:423][853]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Kelp_SkeletalMesh3)
+[2019.06.15-17.23.26:672][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_A_Sandy_2)
+[2019.06.15-17.23.37:517][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_A_Sandy_2)
+[2019.06.15-17.23.38:296][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_A_Sandy_2)
+[2019.06.15-17.23.42:892][588]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.23.46:129][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (83)
+[2019.06.15-17.23.46:549][721]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem12)
+[2019.06.15-17.24.01:660][216]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem10)
+[2019.06.15-17.24.04:297][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.24.06:733][496]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_BlueTang_A)
+[2019.06.15-17.24.13:039][842]Cmd: EDIT COPY
+[2019.06.15-17.24.13:659][877]Cmd: EDIT PASTE
+[2019.06.15-17.24.39:609][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.24.47:681][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.24.49:310][380]LogEditorViewport: Clicking Background
+[2019.06.15-17.24.50:059][424]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_BlueTang_A2)
+[2019.06.15-17.25.20:169][997]LogHttp: Warning: 0000009D63E0D300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.25.20:169][997]LogHttp: Warning: 0000009D63E0D300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.25.20:169][997]LogHttp: Warning: 0000009D63E0D300: libcurl info message cache 1 (Closing connection 7)
+[2019.06.15-17.25.24:893][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (24)
+[2019.06.15-17.25.26:727][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.25.31:023][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.25.34:894][735]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.25.59:336][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (34)
+[2019.06.15-17.26.17:066][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (54)
+[2019.06.15-17.26.17:727][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (54)
+[2019.06.15-17.26.22:739][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (64)
+[2019.06.15-17.26.27:553][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (54)
+[2019.06.15-17.26.51:371][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (70)
+[2019.06.15-17.26.52:586][526]Cmd: EDIT COPY
+[2019.06.15-17.26.53:318][567]Cmd: EDIT PASTE
+[2019.06.15-17.26.54:558][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.27.06:871][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.27.18:392][983]LogEditorViewport: Clicking Background
+[2019.06.15-17.27.20:230][ 84]LogHttp: Warning: 0000009D58BB6500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.27.20:230][ 84]LogHttp: Warning: 0000009D58BB6500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.27.20:230][ 84]LogHttp: Warning: 0000009D58BB6500: libcurl info message cache 1 (Closing connection 8)
+[2019.06.15-17.27.27:592][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (60)
+[2019.06.15-17.27.29:242][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.27.33:067][642]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.27.57:676][736]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (53)
+[2019.06.15-17.27.57:810][736]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.27.58:463][766]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (53)
+[2019.06.15-17.27.58:511][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.28.26:165][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.28.27:251][ 90]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (19)
+[2019.06.15-17.28.27:349][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.28.28:016][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (18)
+[2019.06.15-17.28.29:441][187]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.28.31:667][279]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem)
+[2019.06.15-17.28.33:914][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.28.35:065][506]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.28.36:100][556]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem)
+[2019.06.15-17.28.37:341][618]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.29.06:546][114]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Medaka_A)
+[2019.06.15-17.29.13:551][516]Cmd: EDIT COPY
+[2019.06.15-17.29.20:266][880]LogHttp: Warning: 0000009D4C422200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.29.20:266][880]LogHttp: Warning: 0000009D4C422200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.29.20:267][880]LogHttp: Warning: 0000009D4C422200: libcurl info message cache 1 (Closing connection 9)
+[2019.06.15-17.29.31:232][466]Cmd: EDIT PASTE
+[2019.06.15-17.29.40:650][466]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.06.15-17.29.40:827][466]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.29.47:218][144]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.29.49:902][270]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.29.50:145][270]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d0f106340, Size=160
+[2019.06.15-17.29.50:146][270]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d3be7e660, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_28:ExecuteUbergraph_LD
+[2019.06.15-17.29.50:149][270]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d3be7fce0, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.29.51:013][270]LogSavePackage: Save=882.16ms
+[2019.06.15-17.29.51:013][270]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD_Auto1CF4ADA1E458D6B6C52EA9784C6DAD109.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto1.umap'
+[2019.06.15-17.29.51:015][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/Autosaves/Game/OceanEnvironmentPack/Levels/LD_Auto1.umap
+[2019.06.15-17.29.51:021][270]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OceanEnvironmentPack/Levels/LD' took 1.093
+[2019.06.15-17.29.51:021][270]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.093
+[2019.06.15-17.30.00:549][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.30.01:141][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.30.01:872][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.30.02:531][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.30.03:088][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.30.03:561][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.30.03:963][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (11)
+[2019.06.15-17.30.04:692][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_A18)
+[2019.06.15-17.30.07:279][ 54]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Medaka_A)
+[2019.06.15-17.30.08:480][119]LogEditorViewport: Clicking Background
+[2019.06.15-17.30.09:236][162]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Medaka_A2)
+[2019.06.15-17.30.57:909][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.31.13:914][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.31.20:299][769]LogHttp: Warning: 0000009D49D9A080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.31.20:299][769]LogHttp: Warning: 0000009D49D9A080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.31.20:299][769]LogHttp: Warning: 0000009D49D9A080: libcurl info message cache 1 (Closing connection 10)
+[2019.06.15-17.31.38:210][670]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_BlueTang_A2)
+[2019.06.15-17.31.45:754][ 51]LogEditorViewport: Clicking Background
+[2019.06.15-17.31.46:745][108]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_11)
+[2019.06.15-17.31.48:763][212]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Medaka_B)
+[2019.06.15-17.31.49:936][273]Cmd: DELETE
+[2019.06.15-17.31.49:936][273]Cmd: ACTOR DELETE
+[2019.06.15-17.31.49:990][273]LogEditorActor: Deleted Actor: Emitter
+[2019.06.15-17.31.50:004][273]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d3be7e660, Size=160
+[2019.06.15-17.31.50:005][273]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2019.06.15-17.31.54:236][532]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2019.06.15-17.31.55:776][618]Cmd: EDIT COPY
+[2019.06.15-17.32.55:032][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.33.06:979][490]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight28)
+[2019.06.15-17.33.07:972][541]Cmd: DELETE
+[2019.06.15-17.33.07:972][541]Cmd: ACTOR DELETE
+[2019.06.15-17.33.07:991][541]LogEditorActor: Deleted Actor: PointLight
+[2019.06.15-17.33.08:008][541]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.06.15-17.33.09:788][640]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2019.06.15-17.33.11:303][719]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight7)
+[2019.06.15-17.33.12:175][763]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight15)
+[2019.06.15-17.33.20:345][198]LogHttp: Warning: 0000009D3BE2E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.33.20:345][198]LogHttp: Warning: 0000009D3BE2E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.33.20:345][198]LogHttp: Warning: 0000009D3BE2E500: libcurl info message cache 1 (Closing connection 11)
+[2019.06.15-17.33.42:129][366]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2019.06.15-17.34.16:066][269]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.34.25:212][759]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2019.06.15-17.34.34:523][265]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight15)
+[2019.06.15-17.35.20:378][711]LogHttp: Warning: 0000009D10D01900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.35.20:378][711]LogHttp: Warning: 0000009D10D01900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.35.20:378][711]LogHttp: Warning: 0000009D10D01900: libcurl info message cache 1 (Closing connection 12)
+[2019.06.15-17.35.30:012][101]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem2)
+[2019.06.15-17.35.36:210][321]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (underwater_Cue)
+[2019.06.15-17.35.47:600][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (11)
+[2019.06.15-17.35.48:725][876]Cmd: EDIT COPY
+[2019.06.15-17.35.49:093][895]Cmd: EDIT PASTE
+[2019.06.15-17.35.58:066][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_C5)
+[2019.06.15-17.36.08:411][691]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem)
+[2019.06.15-17.36.10:956][785]Cmd: TRANSACTION UNDO
+[2019.06.15-17.36.10:956][785]LogEditorTransaction: Undo Clicking on Actors
+[2019.06.15-17.36.11:665][810]Cmd: TRANSACTION UNDO
+[2019.06.15-17.36.11:665][810]LogEditorTransaction: Undo Move Actors
+[2019.06.15-17.36.13:752][909]Cmd: TRANSACTION REDO
+[2019.06.15-17.36.13:752][909]LogEditorTransaction: Redo Move Actors
+[2019.06.15-17.36.17:702][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.36.26:276][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_C5)
+[2019.06.15-17.36.31:716][694]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.36.36:650][846]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem10)
+[2019.06.15-17.36.37:482][880]LogEditorViewport: Clicking Background
+[2019.06.15-17.36.38:408][922]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem12)
+[2019.06.15-17.36.42:207][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coral_B2)
+[2019.06.15-17.37.01:347][101]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.37.02:205][145]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.37.10:683][575]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_BlueTang_DeepSea)
+[2019.06.15-17.37.11:790][634]Cmd: DELETE
+[2019.06.15-17.37.11:790][634]Cmd: ACTOR DELETE
+[2019.06.15-17.37.11:807][634]LogEditorActor: Deleted Actor: Emitter
+[2019.06.15-17.37.11:823][634]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.06.15-17.37.16:198][895]LogEditorViewport: Clicking Background
+[2019.06.15-17.37.16:780][930]LogEditorViewport: Clicking Background
+[2019.06.15-17.37.17:427][969]LogEditorViewport: Clicking Background
+[2019.06.15-17.37.18:081][  8]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_6)
+[2019.06.15-17.37.20:422][137]LogHttp: Warning: 0000009D10D01900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.37.20:423][137]LogHttp: Warning: 0000009D10D01900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.37.20:423][137]LogHttp: Warning: 0000009D10D01900: libcurl info message cache 1 (Closing connection 13)
+[2019.06.15-17.37.29:130][532]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_10)
+[2019.06.15-17.37.30:662][617]Cmd: EDIT COPY
+[2019.06.15-17.37.31:477][664]Cmd: EDIT PASTE
+[2019.06.15-17.37.35:130][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.37.38:174][971]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem6)
+[2019.06.15-17.37.48:071][395]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_10)
+[2019.06.15-17.37.49:645][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.37.50:622][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GodRay_Mesh2)
+[2019.06.15-17.37.53:605][577]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_12)
+[2019.06.15-17.38.23:359][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.38.23:552][960]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d3be7fce0, Size=160
+[2019.06.15-17.38.23:552][960]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d894fd8a0, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_32:ExecuteUbergraph_LD
+[2019.06.15-17.38.23:556][960]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d8920e160, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.38.24:433][960]LogSavePackage: Save=903.33ms
+[2019.06.15-17.38.24:433][960]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD99078ADB432FAB0EA7143E874F23BAF9.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.15-17.38.24:439][960]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.15-17.38.25:698][ 18]Cmd: EDIT COPY
+[2019.06.15-17.38.26:279][ 52]Cmd: EDIT PASTE
+[2019.06.15-17.38.40:996][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (63)
+[2019.06.15-17.38.47:038][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (40)
+[2019.06.15-17.38.50:709][406]Cmd: EDIT COPY
+[2019.06.15-17.38.51:226][435]Cmd: EDIT PASTE
+[2019.06.15-17.39.04:808][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (64)
+[2019.06.15-17.39.06:458][248]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_13)
+[2019.06.15-17.39.08:747][370]Cmd: EDIT COPY
+[2019.06.15-17.39.09:199][394]Cmd: EDIT PASTE
+[2019.06.15-17.39.14:879][696]Cmd: EDIT COPY
+[2019.06.15-17.39.15:477][728]Cmd: EDIT PASTE
+[2019.06.15-17.39.20:463][993]LogHttp: Warning: 0000009D113E3B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.39.20:463][993]LogHttp: Warning: 0000009D113E3B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.39.20:463][993]LogHttp: Warning: 0000009D113E3B80: libcurl info message cache 1 (Closing connection 14)
+[2019.06.15-17.39.30:868][520]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_13)
+[2019.06.15-17.39.33:743][667]Cmd: EDIT COPY
+[2019.06.15-17.39.34:153][687]Cmd: EDIT PASTE
+[2019.06.15-17.39.39:965][977]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_15)
+[2019.06.15-17.39.41:065][ 28]Cmd: EDIT COPY
+[2019.06.15-17.39.41:697][ 61]Cmd: EDIT PASTE
+[2019.06.15-17.39.48:324][393]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_16)
+[2019.06.15-17.39.52:942][625]Cmd: EDIT COPY
+[2019.06.15-17.39.54:278][690]Cmd: EDIT PASTE
+[2019.06.15-17.40.07:523][311]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_15)
+[2019.06.15-17.40.08:998][386]Cmd: EDIT COPY
+[2019.06.15-17.40.09:685][423]Cmd: EDIT PASTE
+[2019.06.15-17.40.13:875][635]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_16)
+[2019.06.15-17.40.14:701][674]Cmd: EDIT COPY
+[2019.06.15-17.40.15:093][695]Cmd: EDIT PASTE
+[2019.06.15-17.40.25:730][255]Cmd: EDIT COPY
+[2019.06.15-17.40.26:432][292]Cmd: EDIT PASTE
+[2019.06.15-17.40.47:652][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (45)
+[2019.06.15-17.40.49:237][454]Cmd: EDIT COPY
+[2019.06.15-17.40.49:707][477]Cmd: EDIT PASTE
+[2019.06.15-17.40.51:475][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (54)
+[2019.06.15-17.40.52:597][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (102)
+[2019.06.15-17.41.14:616][676]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_19)
+[2019.06.15-17.41.16:164][756]Cmd: EDIT COPY
+[2019.06.15-17.41.16:906][795]Cmd: EDIT PASTE
+[2019.06.15-17.41.20:500][988]LogHttp: Warning: 0000009D9237BE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.41.20:500][988]LogHttp: Warning: 0000009D9237BE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.41.20:501][988]LogHttp: Warning: 0000009D9237BE80: libcurl info message cache 1 (Closing connection 15)
+[2019.06.15-17.41.23:619][156]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (68)
+[2019.06.15-17.41.28:128][398]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_21)
+[2019.06.15-17.41.41:126][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (65)
+[2019.06.15-17.41.47:422][266]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_19)
+[2019.06.15-17.41.48:306][307]Cmd: EDIT COPY
+[2019.06.15-17.41.49:008][342]Cmd: EDIT PASTE
+[2019.06.15-17.41.55:605][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.41.55:673][669]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.15-17.41.55:716][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.41.55:717][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-17.42.01:354][669]LogSlate: Window 'Message' being destroyed
+[2019.06.15-17.42.02:157][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.42.02:252][714]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d894fd8a0, Size=160
+[2019.06.15-17.42.02:299][714]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d8920e160, Size=160
+[2019.06.15-17.42.02:299][714]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d0c2ebe20, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_36:ExecuteUbergraph_LD
+[2019.06.15-17.42.02:304][714]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d0c2ea520, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.42.03:198][714]LogSavePackage: Save=917.93ms
+[2019.06.15-17.42.03:198][714]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LDE92E38A14EA936BDB67CE7BD8DA4BE99.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.15-17.42.03:202][714]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.15-17.42.04:338][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.42.04:406][772]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.15-17.42.04:447][772]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.42.04:447][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-17.42.05:451][772]LogSlate: Window 'Message' being destroyed
+[2019.06.15-17.42.05:899][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.42.08:125][  6]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.15-17.42.08:164][  6]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.42.08:164][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-17.42.09:322][  6]LogSlate: Window 'Message' being destroyed
+[2019.06.15-17.42.09:338][  6]PIE: New page: PIE session: LD (15 juin 2019 09:42:09)
+[2019.06.15-17.42.09:338][  6]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.15-17.42.09:380][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041787s)
+[2019.06.15-17.42.09:380][  6]LogAIModule: Creating AISystem for world LD
+[2019.06.15-17.42.09:381][  6]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2019.06.15-17.42.09:381][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.042692s)
+[2019.06.15-17.42.09:393][  6]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d0c2ebe20, Size=160
+[2019.06.15-17.42.09:397][  6]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-17.42.09:405][  6]LogInit: FAudioDevice initialized.
+[2019.06.15-17.42.09:406][  6]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.42.09:450][  6]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.15-17.42.09:463][  6]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 0) at 2019.06.15-13.42.09
+[2019.06.15-17.42.23:822][  6]LogWorld: Bringing up level for play took: 14.370446
+[2019.06.15-17.42.23:873][  6]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2019.06.15-17.42.23:880][  6]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.15-17.42.23:881][  6]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.15-17.42.23:881][  6]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 15,266
+[2019.06.15-17.42.23:881][  6]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.42.33:178][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.42.33:229][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.42.44:436][127]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_GlowingPlankton_Rainbow3)
+[2019.06.15-17.42.58:002][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.42.58:045][781]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.15-17.42.58:088][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.42.58:088][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-17.42.58:089][781]PIE: New page: PIE session: LD (15 juin 2019 09:42:58)
+[2019.06.15-17.42.58:089][781]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.15-17.42.58:157][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068796s)
+[2019.06.15-17.42.58:158][781]LogAIModule: Creating AISystem for world LD
+[2019.06.15-17.42.58:159][781]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2019.06.15-17.42.58:159][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.070187s)
+[2019.06.15-17.42.58:180][781]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-17.42.58:190][781]LogInit: FAudioDevice initialized.
+[2019.06.15-17.42.58:226][781]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.15-17.42.58:240][781]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 0) at 2019.06.15-13.42.58
+[2019.06.15-17.43.12:879][781]LogWorld: Bringing up level for play took: 14.652544
+[2019.06.15-17.43.12:887][781]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.15-17.43.12:887][781]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.15-17.43.12:887][781]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 14,273
+[2019.06.15-17.43.12:888][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.43.17:012][  4]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.43.17:062][  4]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.43.19:254][128]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d0c2ea520, Size=160
+[2019.06.15-17.43.19:254][128]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d8920c680, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_40:ExecuteUbergraph_LD
+[2019.06.15-17.43.19:258][128]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d3be7e660, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.43.20:170][128]LogSavePackage: Save=935.77ms
+[2019.06.15-17.43.20:171][128]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD895FE99E4ABA286419E6039BBA619E21.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.15-17.43.20:175][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.15-17.43.20:549][136]LogHttp: Warning: 0000009D923FFB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.43.20:549][136]LogHttp: Warning: 0000009D923FFB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.43.20:549][136]LogHttp: Warning: 0000009D923FFB80: libcurl info message cache 1 (Closing connection 16)
+[2019.06.15-17.43.24:297][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.43.24:394][356]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.15-17.43.24:429][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.43.24:429][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.15-17.43.24:429][356]PIE: New page: PIE session: LD (15 juin 2019 09:43:24)
+[2019.06.15-17.43.24:429][356]LogPlayLevel: Creating play world package: /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD
+[2019.06.15-17.43.24:494][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064566s)
+[2019.06.15-17.43.24:494][356]LogAIModule: Creating AISystem for world LD
+[2019.06.15-17.43.24:495][356]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2019.06.15-17.43.24:495][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OceanEnvironmentPack/Levels/LD.LD to /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD (0.065665s)
+[2019.06.15-17.43.24:512][356]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d8920c680, Size=160
+[2019.06.15-17.43.24:516][356]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.15-17.43.24:524][356]LogInit: FAudioDevice initialized.
+[2019.06.15-17.43.24:556][356]LogLoad: Game class is 'SwimGameMode_C'
+[2019.06.15-17.43.24:569][356]LogWorld: Bringing World /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD up for play (max tick rate 0) at 2019.06.15-13.43.24
+[2019.06.15-17.43.39:494][356]LogWorld: Bringing up level for play took: 14.936551
+[2019.06.15-17.43.39:502][356]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.15-17.43.39:503][356]LogActor: Warning: Controller_C /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD.LD:PersistentLevel.Controller_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.06.15-17.43.39:503][356]PIE: Play in editor start time for /Game/OceanEnvironmentPack/Levels/UEDPIE_0_LD 14,888
+[2019.06.15-17.43.39:503][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.43.48:230][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.43.48:282][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel' has LevelScriptBlueprint '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD' with GeneratedClass '/Game/OceanEnvironmentPack/Levels/LD.LD_C' with ClassGeneratedBy '/Game/OceanEnvironmentPack/Levels/LD.LD:PersistentLevel.LD'
+[2019.06.15-17.44.10:692][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coral_B2)
+[2019.06.15-17.44.27:225][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coral_B2)
+[2019.06.15-17.44.29:074][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coral_B2)
+[2019.06.15-17.44.36:093][227]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem3)
+[2019.06.15-17.45.15:431][217]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.45.20:600][485]LogHttp: Warning: 0000009D7E1D5000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.45.20:600][485]LogHttp: Warning: 0000009D7E1D5000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.45.20:600][485]LogHttp: Warning: 0000009D7E1D5000: libcurl info message cache 1 (Closing connection 17)
+[2019.06.15-17.45.31:662][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.45.45:426][790]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.15-17.46.25:648][747]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.46.26:749][799]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.06.15-17.46.27:356][827]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem4)
+[2019.06.15-17.46.29:467][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.46.56:111][924]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_DeepSea_LeapoardShark)
+[2019.06.15-17.47.20:641][148]LogHttp: Warning: 0000009D94C01F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.47.20:641][148]LogHttp: Warning: 0000009D94C01F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.47.20:641][148]LogHttp: Warning: 0000009D94C01F00: libcurl info message cache 1 (Closing connection 18)
+[2019.06.15-17.48.04:251][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.48.11:864][689]Cmd: EDIT COPY
+[2019.06.15-17.48.13:585][740]Cmd: EDIT PASTE
+[2019.06.15-17.48.15:728][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.49.02:081][470]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Bubbles4)
+[2019.06.15-17.49.02:512][476]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Bubbles4)
+[2019.06.15-17.49.03:188][496]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem)
+[2019.06.15-17.49.16:376][ 79]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2019.06.15-17.49.20:702][316]LogHttp: Warning: 0000009D95727880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.49.20:702][316]LogHttp: Warning: 0000009D95727880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.49.20:702][316]LogHttp: Warning: 0000009D95727880: libcurl info message cache 1 (Closing connection 19)
+[2019.06.15-17.50.11:232][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_A30)
+[2019.06.15-17.50.12:465][293]Cmd: DELETE
+[2019.06.15-17.50.12:465][293]Cmd: ACTOR DELETE
+[2019.06.15-17.50.12:514][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.06.15-17.50.12:597][293]LogEditorActor: Deleted 1 Actors (0.132 secs)
+[2019.06.15-17.50.14:818][416]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Bubbles3)
+[2019.06.15-17.50.15:818][462]Cmd: DELETE
+[2019.06.15-17.50.15:818][462]Cmd: ACTOR DELETE
+[2019.06.15-17.50.15:840][462]LogEditorActor: Deleted Actor: Emitter
+[2019.06.15-17.50.15:855][462]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.06.15-17.50.18:099][594]LogEditorViewport: Clicking Background
+[2019.06.15-17.50.19:068][653]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_GlowingPlankton_Blue)
+[2019.06.15-17.50.19:298][659]Cmd: DELETE
+[2019.06.15-17.50.19:298][659]Cmd: ACTOR DELETE
+[2019.06.15-17.50.19:316][659]LogEditorActor: Deleted Actor: Emitter
+[2019.06.15-17.50.19:332][659]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.06.15-17.50.21:355][785]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_08)
+[2019.06.15-17.50.21:806][807]Cmd: DELETE
+[2019.06.15-17.50.21:806][807]Cmd: ACTOR DELETE
+[2019.06.15-17.50.21:828][807]LogEditorActor: Deleted Actor: BP_OceanSplineSystem_C
+[2019.06.15-17.50.21:844][807]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.06.15-17.50.22:984][875]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_06)
+[2019.06.15-17.50.23:255][887]Cmd: DELETE
+[2019.06.15-17.50.23:255][887]Cmd: ACTOR DELETE
+[2019.06.15-17.50.23:277][887]LogEditorActor: Deleted Actor: BP_OceanSplineSystem_C
+[2019.06.15-17.50.23:295][887]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.06.15-17.50.25:747][ 36]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem_Jellyfish_00)
+[2019.06.15-17.50.25:958][ 44]Cmd: DELETE
+[2019.06.15-17.50.25:958][ 44]Cmd: ACTOR DELETE
+[2019.06.15-17.50.25:978][ 44]LogEditorActor: Deleted Actor: BP_OceanSplineSystem_C
+[2019.06.15-17.50.25:995][ 44]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2019.06.15-17.50.26:776][ 92]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Bubbles)
+[2019.06.15-17.50.27:235][114]Cmd: DELETE
+[2019.06.15-17.50.27:236][114]Cmd: ACTOR DELETE
+[2019.06.15-17.50.27:255][114]LogEditorActor: Deleted Actor: Emitter
+[2019.06.15-17.50.27:271][114]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.06.15-17.50.27:643][137]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystemGiantMedaka)
+[2019.06.15-17.50.31:252][324]LogEditorViewport: Clicking Background
+[2019.06.15-17.50.32:135][373]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystemGiantMedaka)
+[2019.06.15-17.51.11:517][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.51.18:356][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.51.20:746][654]LogHttp: Warning: 0000009D484EB100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.51.20:746][654]LogHttp: Warning: 0000009D484EB100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.51.20:746][654]LogHttp: Warning: 0000009D484EB100: libcurl info message cache 1 (Closing connection 20)
+[2019.06.15-17.51.25:286][844]Cmd: EDIT COPY
+[2019.06.15-17.51.25:910][872]Cmd: EDIT PASTE
+[2019.06.15-17.51.36:165][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.51.40:540][417]LogEditorViewport: Clicking Background
+[2019.06.15-17.51.47:268][692]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle_Medaka_A)
+[2019.06.15-17.51.47:834][715]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystemGiantMedaka3)
+[2019.06.15-17.51.48:943][765]Cmd: EDIT COPY
+[2019.06.15-17.51.49:581][795]Cmd: EDIT PASTE
+[2019.06.15-17.51.51:440][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.52.38:684][964]Cmd: EDIT COPY
+[2019.06.15-17.52.39:265][993]Cmd: EDIT PASTE
+[2019.06.15-17.52.41:988][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.52.46:812][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.53.01:812][ 27]LogEditorViewport: Clicking on Actor (LMB): BP_OceanSplineSystem_C (BP_OceanSplineSystem6)
+[2019.06.15-17.53.20:811][652]LogHttp: Warning: 0000009D120EB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.53.20:811][652]LogHttp: Warning: 0000009D120EB400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.53.20:811][652]LogHttp: Warning: 0000009D120EB400: libcurl info message cache 1 (Closing connection 21)
+[2019.06.15-17.53.27:023][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.53.27:370][882]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d3be7e660, Size=160
+[2019.06.15-17.53.27:370][882]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d3d6f5d00, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_44:ExecuteUbergraph_LD
+[2019.06.15-17.53.27:374][882]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d7671de40, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.53.28:369][882]LogSavePackage: Save=1014.45ms
+[2019.06.15-17.53.28:369][882]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LD4654256D44D8FCAA5B604BAAC0474537.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.15-17.53.28:373][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.15-17.53.54:946][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (63)
+[2019.06.15-17.55.20:844][ 55]LogHttp: Warning: 0000009D11E33580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.55.20:844][ 55]LogHttp: Warning: 0000009D11E33580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.55.20:844][ 55]LogHttp: Warning: 0000009D11E33580: libcurl info message cache 1 (Closing connection 22)
+[2019.06.15-17.56.16:027][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.15-17.56.16:163][331]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d3d6f5d00, Size=160
+[2019.06.15-17.56.16:215][331]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009d7671de40, Size=160
+[2019.06.15-17.56.16:215][331]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d59088cc0, Size=160, Default__LD_C Function /Engine/Transient.REINST_LD_C_48:ExecuteUbergraph_LD
+[2019.06.15-17.56.16:222][331]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009d89460cc0, Size=160, Default__LD_C Function /Game/OceanEnvironmentPack/Levels/LD.LD_C:ExecuteUbergraph_LD
+[2019.06.15-17.56.17:441][331]LogSavePackage: Save=1259.98ms
+[2019.06.15-17.56.17:441][331]LogSavePackage: Moving '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Saved/LDE97F8A1148453BEDF147EEB846595362.tmp' to '../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap'
+[2019.06.15-17.56.17:453][331]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Gautier/Documents/NageVr/NageVR/VRSwim/Content/OceanEnvironmentPack/Levels/LD.umap
+[2019.06.15-17.57.21:490][893]LogHttp: Warning: 0000009D97A80400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.06.15-17.57.21:490][893]LogHttp: Warning: 0000009D97A80400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.06.15-17.57.21:490][893]LogHttp: Warning: 0000009D97A80400: libcurl info message cache 1 (Closing connection 23)
+>>>>>>> master
